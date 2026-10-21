@@ -1,0 +1,95 @@
+
+/* Step 3 — MapLibre GL enhanced map workspace */
+.map-first-page { gap: 16px; }
+.map-page-heading h1 { margin-bottom: 5px; }
+.map-toolbar { position: relative; z-index: 4; }
+.map-search { flex: 1 1 420px; min-width: 260px; }
+.map-workspace { position: relative; height: clamp(620px, calc(100vh - 250px), 820px); overflow: hidden; background: #dfe7e4; }
+.nashik-map-shell { position: absolute; inset: 0; }
+.nashik-map { width: 100%; height: 100%; background: #dce6e4; }
+.map-title-card { position: absolute; z-index: 450; top: 16px; left: 16px; min-width: 220px; padding: 11px 13px; border: 1px solid rgba(35,55,68,.12); border-radius: 10px; background: rgba(255,255,255,.94); box-shadow: 0 8px 24px rgba(21,39,52,.10); backdrop-filter: blur(8px); pointer-events: none; }
+.map-title-card strong, .map-title-card small { display: block; }
+.map-title-card strong { margin-top: 4px; font-size: 13px; color: #26374b; }
+.map-title-card small { margin-top: 3px; color: #758596; font-size: 9px; }
+.floating-legend { z-index: 450; right: 16px; bottom: 16px; }
+.map-network-note { position: absolute; z-index: 450; left: 50%; bottom: 17px; transform: translateX(-50%); padding: 6px 9px; border-radius: 7px; background: rgba(255,255,255,.90); border: 1px solid rgba(35,55,68,.10); color: #6d7b89; font-size: 8px; box-shadow: 0 5px 14px rgba(20,37,48,.07); pointer-events: none; white-space: nowrap; }
+.site-drawer-toggle { position: absolute; z-index: 500; left: 16px; bottom: 16px; min-height: 38px; display: inline-flex; align-items: center; gap: 8px; padding: 0 12px; border: 1px solid rgba(30,49,63,.13); border-radius: 9px; background: rgba(255,255,255,.96); color: #34475b; box-shadow: 0 8px 22px rgba(22,40,54,.12); cursor: pointer; font-size: 10px; font-weight: 800; }
+.site-drawer { position: absolute; z-index: 520; left: 16px; top: 76px; bottom: 64px; width: min(360px, calc(100% - 32px)); overflow: hidden; border: 1px solid rgba(30,49,63,.12); border-radius: 12px; background: rgba(255,255,255,.97); box-shadow: 0 18px 48px rgba(20,38,52,.18); backdrop-filter: blur(10px); }
+.site-drawer-head { height: 66px; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 14px; border-bottom: 1px solid #edf1f4; }
+.site-drawer-head h2 { margin: 3px 0 0; font-size: 14px; }
+.site-drawer .site-list { max-height: calc(100% - 66px); }
+.map-workspace .detail-panel { top: 16px; right: 16px; bottom: 16px; max-height: none; }
+.hotspot-marker-wrap { background: transparent !important; border: 0 !important; }
+.hotspot-marker { width: 28px; height: 28px; display: block; border-radius: 50% 50% 50% 7px; transform: rotate(-45deg); border: 3px solid white; box-shadow: 0 5px 12px rgba(17,37,54,.26); transition: transform .15s ease, box-shadow .15s ease; }
+.hotspot-marker > span { width: 7px; height: 7px; display: block; margin: 7px auto; border-radius: 50%; background: white; }
+.hotspot-marker.high { background: #c85353; }
+.hotspot-marker.medium { background: #d28a2d; }
+.hotspot-marker.low { background: #3b8270; }
+.hotspot-marker.selected { transform: rotate(-45deg) scale(1.18); box-shadow: 0 0 0 5px rgba(20,125,116,.22), 0 6px 15px rgba(17,37,54,.32); }
+.leaflet-tooltip { font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 10px; color: #26374b; border: 1px solid #dfe6ee; border-radius: 8px; box-shadow: 0 7px 20px rgba(20,38,52,.12); }
+.leaflet-control-zoom a { color: #34475b !important; }
+.leaflet-control-attribution { font-size: 8px !important; }
+
+/* MapLibre GL shell */
+.mapgl-shell { position: absolute; inset: 0; overflow: hidden; }
+
+/* Custom pin marker */
+.map-pin { position: relative; width: 30px; height: 30px; border: 0; padding: 0; background: transparent; cursor: pointer; transform: translateY(0); transition: transform .14s ease; }
+.map-pin:hover { transform: translateY(-2px) scale(1.08); }
+.map-pin-inner { display: block; width: 28px; height: 28px; border-radius: 50% 50% 50% 6px; transform: rotate(-45deg); background: var(--pin-color, #c85353); border: 3px solid white; box-shadow: 0 4px 12px rgba(17,37,54,.28); transition: box-shadow .14s ease; }
+.map-pin-inner::after { content: ''; display: block; width: 7px; height: 7px; border-radius: 50%; background: white; margin: 7px auto; }
+.map-pin-ring { position: absolute; inset: -5px; border-radius: 50%; border: 2px solid var(--pin-color, #c85353); opacity: .35; animation: ping .9s ease-out infinite; pointer-events: none; }
+.map-pin.selected .map-pin-inner { box-shadow: 0 0 0 5px rgba(20,125,116,.22), 0 6px 15px rgba(17,37,54,.32); transform: rotate(-45deg) scale(1.15); }
+@keyframes ping { 0%{opacity:.5;transform:scale(1)} 100%{opacity:0;transform:scale(2.4)} }
+
+/* MapLibre popup */
+.maplibregl-popup-content { padding: 0 !important; border-radius: 9px !important; box-shadow: 0 8px 22px rgba(17,37,54,.14) !important; border: 1px solid #dfe6ee !important; overflow: hidden; }
+.site-popup-content { padding: 9px 12px; font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
+.site-popup-content strong { display: block; font-size: 11px; color: #26374b; }
+.site-popup-content span { display: block; font-size: 9px; color: #6d7b89; margin-top: 2px; max-width: 200px; line-height: 1.4; }
+
+/* Floating zoom / reset controls */
+.map-float-controls { position: absolute; z-index: 450; right: 16px; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; gap: 4px; }
+.map-ctrl-btn { width: 34px; height: 34px; border-radius: 8px; border: 1px solid rgba(30,49,63,.13); background: rgba(255,255,255,.96); color: #34475b; box-shadow: 0 5px 14px rgba(22,40,54,.10); cursor: pointer; font-size: 18px; font-weight: 400; line-height: 1; display: grid; place-items: center; transition: background .12s; }
+.map-ctrl-btn:hover { background: white; }
+.map-ctrl-reset { font-size: 14px; }
+
+/* Map error state */
+.map-error-state { position: absolute; inset: 0; z-index: 10; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #f0f4f6; gap: 6px; padding: 24px; text-align: center; }
+.map-error-icon { font-size: 32px; }
+.map-error-state strong { font-size: 15px; color: #2e4058; }
+.map-error-state p { font-size: 11px; color: #6d7b89; margin: 0; max-width: 340px; }
+.map-error-state small { font-size: 9px; color: #8a9ab0; }
+
+/* Extra filters bar */
+.extra-filters-bar { padding: 8px 10px; min-height: auto; animation: slideDown .15s ease; }
+@keyframes slideDown { from{opacity:0;transform:translateY(-4px)} to{opacity:1;transform:translateY(0)} }
+.filter-toggle { display: inline-flex; align-items: center; gap: 6px; position: relative; }
+.filter-active-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--teal); display: inline-block; margin-left: 2px; }
+.search-clear { background: transparent; border: 0; cursor: pointer; color: #8a9ab0; padding: 0; display: grid; place-items: center; flex: 0 0 auto; }
+.search-clear:hover { color: #34475b; }
+.clear-btn { display: inline-flex; align-items: center; gap: 5px; }
+.demo-label { color: #a07a20; font-size: 10px; font-weight: 700; background: #fff8e3; padding: 2px 6px; border-radius: 4px; border: 1px solid #f0ddb2; white-space: nowrap; }
+
+/* SiteDetail location row + coord chip */
+.detail-location-row { display: flex; align-items: center; gap: 6px; margin: 10px 0 4px; font-size: 10px; color: #5d6d7d; flex-wrap: wrap; }
+.detail-location-row svg { flex: 0 0 auto; color: var(--teal); }
+.coord-chip { font-family: ui-monospace, 'Cascadia Code', 'Fira Code', monospace; font-size: 9px; background: #f0f4f6; border: 1px solid #d8e2ea; border-radius: 5px; padding: 2px 6px; color: #516274; margin-left: auto; }
+
+/* MapLibre attribution */
+.maplibregl-ctrl-attrib { font-size: 8px !important; }
+.maplibregl-ctrl-attrib a { color: #6d7b89 !important; }
+
+@media (max-width: 780px) {
+  .map-toolbar { align-items: stretch; flex-wrap: wrap; }
+  .map-toolbar .select-field { flex: 1 1 180px; }
+  .map-workspace { height: 620px; }
+  .map-title-card { top: 12px; left: 12px; min-width: 190px; }
+  .site-drawer-toggle { left: 12px; bottom: 12px; }
+  .site-drawer { left: 12px; top: 70px; bottom: 58px; width: min(340px, calc(100% - 24px)); }
+  .map-workspace .detail-panel { top: auto; left: 12px; right: 12px; bottom: 12px; width: auto; max-height: 55%; }
+  .floating-legend { right: 12px; bottom: 12px; }
+  .map-network-note { display: none; }
+  .map-float-controls { right: 12px; top: auto; transform: none; bottom: 58px; }
+  .extra-filters-bar .select-field { flex: 1 1 180px; }
+}

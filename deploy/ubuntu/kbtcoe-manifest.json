@@ -1,0 +1,2448 @@
+{
+  "campus": "KBTCOE",
+  "survey": "First drone survey",
+  "capture_date": "2026-08-19",
+  "capture_timezone": null,
+  "areas": [
+    {
+      "code": "A",
+      "name": "Area A",
+      "bounds": {
+        "west": 73.76142051352713,
+        "south": 20.016772772343163,
+        "east": 73.76536628864642,
+        "north": 20.01747364308115
+      },
+      "source_crs": "EPSG:32643",
+      "assets": [
+        {
+          "relative_path": "raw/DJI_0021.DNG",
+          "kind": "raw",
+          "size_bytes": 41019952,
+          "sha256": "40e320c1f97825886168790338966b77c76205bd4f3ee4fd006f266b93238227"
+        },
+        {
+          "relative_path": "raw/DJI_0022.DNG",
+          "kind": "raw",
+          "size_bytes": 41026066,
+          "sha256": "d3310dc43a5897998fb6d8f1e9d447104c3d96c8237795f6e2e248b21192420c"
+        },
+        {
+          "relative_path": "raw/DJI_0023.DNG",
+          "kind": "raw",
+          "size_bytes": 41021184,
+          "sha256": "1bfa30e96b3c921a210b8870da33dbdf25d309a62607bc4a3ca598dbbe038305"
+        },
+        {
+          "relative_path": "raw/DJI_0024.DNG",
+          "kind": "raw",
+          "size_bytes": 41027261,
+          "sha256": "b5ac19a99edbf30a391c5681297b8575bd57fdb2d22a298202aa1688559efb83"
+        },
+        {
+          "relative_path": "raw/DJI_0025.DNG",
+          "kind": "raw",
+          "size_bytes": 41016491,
+          "sha256": "d9b369d3e43580b1d45ae83c143daf017e739f3f911e156efc88cc16f6ddf5ed"
+        },
+        {
+          "relative_path": "raw/DJI_0026.DNG",
+          "kind": "raw",
+          "size_bytes": 41016406,
+          "sha256": "725084f851334c44e5a516dd1d02ba820772bf85fdb5396c787097d210d093bb"
+        },
+        {
+          "relative_path": "raw/DJI_0027.DNG",
+          "kind": "raw",
+          "size_bytes": 41025624,
+          "sha256": "acf86c6ae937030517c54a0ae98ef28cec63f838e705a632477f71d505cce3c8"
+        },
+        {
+          "relative_path": "raw/DJI_0028.DNG",
+          "kind": "raw",
+          "size_bytes": 41025158,
+          "sha256": "7d3915365e0cb7358f1d8f1a20f64cb91199b78618a0fb6204cbeb48bfcf74be"
+        },
+        {
+          "relative_path": "raw/DJI_0029.DNG",
+          "kind": "raw",
+          "size_bytes": 41034097,
+          "sha256": "e6350723759083caa1e837b06b5a535da1825969a76babcc00bf7cebac5a9f5f"
+        },
+        {
+          "relative_path": "raw/DJI_0030.DNG",
+          "kind": "raw",
+          "size_bytes": 41020123,
+          "sha256": "1e642b06e71201e49610c8dd2d031cb23f3e9df3899b1724f9616aceffe2d457"
+        },
+        {
+          "relative_path": "raw/DJI_0031.DNG",
+          "kind": "raw",
+          "size_bytes": 40998328,
+          "sha256": "0ed6bc92ba8e78f0320dbe6c8989b3894f6c746639edbbec1b45411a8345364d"
+        },
+        {
+          "relative_path": "raw/DJI_0032.DNG",
+          "kind": "raw",
+          "size_bytes": 40983313,
+          "sha256": "08c851ec31ffb7149ea80ae2b357a3bf9ba8f67c12915f85d3eebad42d7a1756"
+        },
+        {
+          "relative_path": "raw/DJI_0033.DNG",
+          "kind": "raw",
+          "size_bytes": 40988005,
+          "sha256": "7774f17b231ddfccdbc3adc71dce3d1b83c87e627367696cf9fb269134479eff"
+        },
+        {
+          "relative_path": "raw/DJI_0034.DNG",
+          "kind": "raw",
+          "size_bytes": 40971030,
+          "sha256": "75a2e41e9a5720df1c3b255cd59f5631901e1b2ecd768526c93b1642254245f3"
+        },
+        {
+          "relative_path": "raw/DJI_0035.DNG",
+          "kind": "raw",
+          "size_bytes": 40972032,
+          "sha256": "fdcd53647b203b3fe4a7e8fef64b70a6f032290b5142730d544d713b118e664b"
+        },
+        {
+          "relative_path": "raw/DJI_0036.DNG",
+          "kind": "raw",
+          "size_bytes": 40967211,
+          "sha256": "82cd37988521656c3f8dde11034f005ce2d899f8578353ce93faa988e4061826"
+        },
+        {
+          "relative_path": "raw/DJI_0037.DNG",
+          "kind": "raw",
+          "size_bytes": 40957925,
+          "sha256": "599081764ef9da7f2c361ae4692bcbf112a828a3cc8d35a26e80e80ce7a38c81"
+        },
+        {
+          "relative_path": "raw/DJI_0038.DNG",
+          "kind": "raw",
+          "size_bytes": 40962044,
+          "sha256": "22a90b7e050f5636a9a44d068c150cef07550a7abfbf351489b2a290f824c552"
+        },
+        {
+          "relative_path": "raw/DJI_0039.DNG",
+          "kind": "raw",
+          "size_bytes": 40986882,
+          "sha256": "d9bdc7efc39c00a2b03acbb310226dc81a2e8704205dc1611a71213f1a2c406d"
+        },
+        {
+          "relative_path": "raw/DJI_0040.DNG",
+          "kind": "raw",
+          "size_bytes": 40998105,
+          "sha256": "2cf9632e03726e7cb942c9b36ff0355950a6e41068347d1605af103e097d3511"
+        },
+        {
+          "relative_path": "raw/DJI_0041.DNG",
+          "kind": "raw",
+          "size_bytes": 40984224,
+          "sha256": "002a3a458314bb406e18e5f62db71cb81f262da1fbf8dc31d193f87825140af3"
+        },
+        {
+          "relative_path": "raw/DJI_0042.DNG",
+          "kind": "raw",
+          "size_bytes": 40985072,
+          "sha256": "a1279e59ce1f4278e87b563a611bad190142ed8868c87b7cfbe1f15d036a695a"
+        },
+        {
+          "relative_path": "raw/DJI_0043.DNG",
+          "kind": "raw",
+          "size_bytes": 40956553,
+          "sha256": "b276e98d871a0d06a795f956fee35fb4971431b1bc4de110b4533e5da103770e"
+        },
+        {
+          "relative_path": "raw/DJI_0044.DNG",
+          "kind": "raw",
+          "size_bytes": 40937167,
+          "sha256": "bd2388cadf5ef498dffea0154ddcc4bee00c8f7188d402597d6b29f35e531e1f"
+        },
+        {
+          "relative_path": "raw/DJI_0045.DNG",
+          "kind": "raw",
+          "size_bytes": 40942154,
+          "sha256": "c67b0405f563ef26403d269998b3547b338a25a145a76295cec44b558232532f"
+        },
+        {
+          "relative_path": "raw/DJI_0046.DNG",
+          "kind": "raw",
+          "size_bytes": 40928892,
+          "sha256": "bf6d6c4bd6fccf7a5300566a08c4b72806400e70ac4bfd39fe1d955ba3f6298f"
+        },
+        {
+          "relative_path": "raw/DJI_0047.DNG",
+          "kind": "raw",
+          "size_bytes": 40911601,
+          "sha256": "d846a468cfa3548f793b6394cdfb98ca91c6911bc3cf3cfd6b6a0e75cae48c3f"
+        },
+        {
+          "relative_path": "raw/DJI_0048.DNG",
+          "kind": "raw",
+          "size_bytes": 40913400,
+          "sha256": "910f281bc7ad38532b3574ca6784563c5ff31bcd6b7f21834ff4f5231aaea148"
+        },
+        {
+          "relative_path": "raw/DJI_0049.DNG",
+          "kind": "raw",
+          "size_bytes": 40931354,
+          "sha256": "a01b64c9078037e1477c0298b2f7f68046088cb4fbec334b82ed9c9f7edb30e7"
+        },
+        {
+          "relative_path": "raw/DJI_0050.DNG",
+          "kind": "raw",
+          "size_bytes": 40936556,
+          "sha256": "139bc36287242073dd9408e627d4abdb29849c79cb2c859c1e709077a9378683"
+        },
+        {
+          "relative_path": "raw/DJI_0051.DNG",
+          "kind": "raw",
+          "size_bytes": 40938590,
+          "sha256": "3f984192254beab7549364ce1c349e51394ec63915579df377b3edecc38b60e6"
+        },
+        {
+          "relative_path": "raw/DJI_0052.DNG",
+          "kind": "raw",
+          "size_bytes": 40948441,
+          "sha256": "cbe84bd99e3757d76a29c00414f75b0104ca8e524ac0b29f8d57d3565852189b"
+        },
+        {
+          "relative_path": "raw/DJI_0053.DNG",
+          "kind": "raw",
+          "size_bytes": 40959436,
+          "sha256": "8ff651be79bc3bf192445c1084313e49b9bce8de071bebfddefb8d3029663cc9"
+        },
+        {
+          "relative_path": "raw/DJI_0054.DNG",
+          "kind": "raw",
+          "size_bytes": 40954471,
+          "sha256": "3ca2caf0916ecc4e3e8aef912c66b64525687225d711a1cd80579d446b00969f"
+        },
+        {
+          "relative_path": "raw/DJI_0055.DNG",
+          "kind": "raw",
+          "size_bytes": 40965213,
+          "sha256": "f7a5572bbcffd87b02132a97d5b667293f391a90115efcdce25f4483de705763"
+        },
+        {
+          "relative_path": "raw/DJI_0056.DNG",
+          "kind": "raw",
+          "size_bytes": 40986036,
+          "sha256": "f7e24553ef6795159176f082eb6b304137d3912dcb8347b065ddf7782894048f"
+        },
+        {
+          "relative_path": "raw/DJI_0057.DNG",
+          "kind": "raw",
+          "size_bytes": 41010033,
+          "sha256": "6e166dc7d4437abcd2acbcebe6823dd6885d2e61594610e0fb63edd8b908357d"
+        },
+        {
+          "relative_path": "raw/DJI_0058.DNG",
+          "kind": "raw",
+          "size_bytes": 41016387,
+          "sha256": "58a27a177731a8823f545b70d45ba825a4eb11e2d05e81457629fb08770c1bd1"
+        },
+        {
+          "relative_path": "raw/DJI_0059.DNG",
+          "kind": "raw",
+          "size_bytes": 41017584,
+          "sha256": "5bdbcdb12dacba56d890e12c311fe97de8993ad4c258acde21f8bf26b4437588"
+        },
+        {
+          "relative_path": "raw/DJI_0060.DNG",
+          "kind": "raw",
+          "size_bytes": 41017886,
+          "sha256": "f190ba097325f237e92efc6788da330b7a330f30605f37fa67c404d04e440ed5"
+        },
+        {
+          "relative_path": "raw/DJI_0061.DNG",
+          "kind": "raw",
+          "size_bytes": 41005977,
+          "sha256": "e8866b1bda49b442d5d32ce25f72cee66c2caefe6fd544b6a46c55dea054780d"
+        },
+        {
+          "relative_path": "raw/DJI_0062.DNG",
+          "kind": "raw",
+          "size_bytes": 40982496,
+          "sha256": "22a11683984e4046c16fb1da729983d64ae0eb1759cfba01ccf0cba56e8fef53"
+        },
+        {
+          "relative_path": "raw/DJI_0063.DNG",
+          "kind": "raw",
+          "size_bytes": 40967166,
+          "sha256": "c4b1910b8491eb5678f87a059a20a0531eaae0b1f4e231f7844073093826fa24"
+        },
+        {
+          "relative_path": "raw/DJI_0064.DNG",
+          "kind": "raw",
+          "size_bytes": 40963516,
+          "sha256": "7ce838619b36a60d5739008bc9b4b183c3b38847d14d22e212ff8c77091be912"
+        },
+        {
+          "relative_path": "raw/DJI_0065.DNG",
+          "kind": "raw",
+          "size_bytes": 40964654,
+          "sha256": "ff98ffc5c5cb9ce1d932193d9e3638290454fcdd68d88273a51e98cd08cc679c"
+        },
+        {
+          "relative_path": "raw/DJI_0066.DNG",
+          "kind": "raw",
+          "size_bytes": 40964383,
+          "sha256": "672177b74624acb67cd50a2a7a22ea164d25a907533ca2aad5fa7a1c4d68ec6e"
+        },
+        {
+          "relative_path": "raw/DJI_0067.DNG",
+          "kind": "raw",
+          "size_bytes": 40973994,
+          "sha256": "e3a16028a8f8da807e32cdce07f14d89c856d0e1e758e9a3622cb6742561daf5"
+        },
+        {
+          "relative_path": "raw/DJI_0068.DNG",
+          "kind": "raw",
+          "size_bytes": 40985898,
+          "sha256": "4c7b2075262fa1b71eaf18a9e37b2dff19fca0adc4ec6c530c8e5d8aa7bb4a36"
+        },
+        {
+          "relative_path": "raw/DJI_0069.DNG",
+          "kind": "raw",
+          "size_bytes": 41006409,
+          "sha256": "be5389a1c50c891b8ad966ca8fa16f96c6a6e555a6b3101b5b145aee65a4817d"
+        },
+        {
+          "relative_path": "raw/DJI_0070.DNG",
+          "kind": "raw",
+          "size_bytes": 41029508,
+          "sha256": "36ed4a5c3218b5d3a0fc6400ee2ac439f339c06e390813f1df2c1a77d34bbc4d"
+        },
+        {
+          "relative_path": "raw/DJI_0071.DNG",
+          "kind": "raw",
+          "size_bytes": 41030493,
+          "sha256": "119a16a9aa3c4137ad9934291d8c9f96d7b88c16165d2c8dd44fa581828f7dcc"
+        },
+        {
+          "relative_path": "raw/DJI_0072.DNG",
+          "kind": "raw",
+          "size_bytes": 41025277,
+          "sha256": "69e8e6430c08fc236f1d106141a9376e03651ab4e7ac10fa80391ccb8768b8bf"
+        },
+        {
+          "relative_path": "raw/DJI_0073.DNG",
+          "kind": "raw",
+          "size_bytes": 41023730,
+          "sha256": "8e7700a973b3ff43f08ee483368ee31919f9fc89a7c4ac408a25ceb62145b65c"
+        },
+        {
+          "relative_path": "raw/DJI_0074.DNG",
+          "kind": "raw",
+          "size_bytes": 41010444,
+          "sha256": "383b9c1fd16c96c9b03690e37bdab7e60b9884947b0f3171512dfc6542599a31"
+        },
+        {
+          "relative_path": "raw/DJI_0075.DNG",
+          "kind": "raw",
+          "size_bytes": 41005687,
+          "sha256": "9cc592977fa4f872cecc1454679980c36af229338ae6ad9b21a9f4de738c8772"
+        },
+        {
+          "relative_path": "raw/DJI_0076.DNG",
+          "kind": "raw",
+          "size_bytes": 41007763,
+          "sha256": "246a8d315d465084582b0aba943c09a2e086c00fc9500d088e370e150162ed35"
+        },
+        {
+          "relative_path": "raw/DJI_0077.DNG",
+          "kind": "raw",
+          "size_bytes": 41021225,
+          "sha256": "ab6befb4fc220f91f033e1fd36381b6f7a2538bf81438ef6e4a8ed81c7228b1e"
+        },
+        {
+          "relative_path": "raw/DJI_0078.DNG",
+          "kind": "raw",
+          "size_bytes": 41031352,
+          "sha256": "8a04c92bac0aeb9fb87ebf1c5905d2ea4180f1516817e04d82085e611d7897e8"
+        },
+        {
+          "relative_path": "raw/DJI_0079.DNG",
+          "kind": "raw",
+          "size_bytes": 41031097,
+          "sha256": "1d43b5d8fc6ddb02dc58114dc2737a49dd5c88243b7cffb6dc14509748e9a050"
+        },
+        {
+          "relative_path": "raw/DJI_0080.DNG",
+          "kind": "raw",
+          "size_bytes": 41021572,
+          "sha256": "bfbdf83362df01f7b8fe417dd2a8a796f2f1fb27ceea66afe1802ffbfeb0c02a"
+        },
+        {
+          "relative_path": "raw/DJI_0081.DNG",
+          "kind": "raw",
+          "size_bytes": 41023398,
+          "sha256": "64a4c4ac3d4eed0e4f8c69f553b1d3a2b420267cf626724c8312d2de4a95e892"
+        },
+        {
+          "relative_path": "raw/DJI_0082.DNG",
+          "kind": "raw",
+          "size_bytes": 41038740,
+          "sha256": "1974869936735877078016e276c5cd7fc6506c9801ecc4c946a48058cd23d5f0"
+        },
+        {
+          "relative_path": "raw/DJI_0083.DNG",
+          "kind": "raw",
+          "size_bytes": 41040867,
+          "sha256": "7d13b084e672dc709a36b9b341127b966aa2cdd7ddc9de7d984155ff6ef1e902"
+        },
+        {
+          "relative_path": "raw/DJI_0084.DNG",
+          "kind": "raw",
+          "size_bytes": 41046453,
+          "sha256": "c5412fb413b86d681bc7f15ad9bbc1611ee6a43f77de7fbca024042c2f10261a"
+        },
+        {
+          "relative_path": "raw/DJI_0085.DNG",
+          "kind": "raw",
+          "size_bytes": 41049625,
+          "sha256": "a503047742edaea61f4898554e2c3f3fdd02ef668c6d33d4a3490a12847395ad"
+        },
+        {
+          "relative_path": "raw/DJI_0086.DNG",
+          "kind": "raw",
+          "size_bytes": 41040871,
+          "sha256": "bc4f032ee3d4f36c77e319ed03266fefe514c6478ed946dc9e10b53db96847a6"
+        },
+        {
+          "relative_path": "raw/DJI_0087.DNG",
+          "kind": "raw",
+          "size_bytes": 41031589,
+          "sha256": "0a037d5efde36245f92c9a02dd0bffdb63422fff46c29ab9914090815d3649e9"
+        },
+        {
+          "relative_path": "raw/DJI_0088.DNG",
+          "kind": "raw",
+          "size_bytes": 41014328,
+          "sha256": "1fe7dcacafd79acd5dc5910c70762805fddd19099764e4774a28f7fac7072865"
+        },
+        {
+          "relative_path": "raw/DJI_0089.DNG",
+          "kind": "raw",
+          "size_bytes": 41007231,
+          "sha256": "1631da056a0291370588d48c3b423729d71969224bc52c6063ddd1148ed2ad71"
+        },
+        {
+          "relative_path": "raw/DJI_0090.DNG",
+          "kind": "raw",
+          "size_bytes": 40998304,
+          "sha256": "20c5f027f9ac243628865122a68b26af4928c71d733907b7dbb37db0631bba7b"
+        },
+        {
+          "relative_path": "raw/DJI_0091.DNG",
+          "kind": "raw",
+          "size_bytes": 40993626,
+          "sha256": "6bbf9c01982aed79cdb5a706396e613599d76a5462d2402fa4454b23ef5a2ab6"
+        },
+        {
+          "relative_path": "raw/DJI_0092.DNG",
+          "kind": "raw",
+          "size_bytes": 40996599,
+          "sha256": "40349c1f8e85c0d936e8b0613b718c3d90b1dda38abbfc000eb96fecdeeaf665"
+        },
+        {
+          "relative_path": "raw/DJI_0093.DNG",
+          "kind": "raw",
+          "size_bytes": 41000549,
+          "sha256": "2d1729002379c34bc364c76fc9a88eae1f2adca6eb39c1bddfda2fcd48c8e8ae"
+        },
+        {
+          "relative_path": "raw/DJI_0094.DNG",
+          "kind": "raw",
+          "size_bytes": 40999732,
+          "sha256": "960a5441bd57a8b24a056cefa0c0c90b047afbd0205c234358e985809b41582b"
+        },
+        {
+          "relative_path": "raw/DJI_0095.DNG",
+          "kind": "raw",
+          "size_bytes": 41003268,
+          "sha256": "333b58cd2cfe62fd975d439a0742a26f9901c0271cc25e6bc19a690ceb6eea5e"
+        },
+        {
+          "relative_path": "raw/DJI_0096.DNG",
+          "kind": "raw",
+          "size_bytes": 41011943,
+          "sha256": "c0b3be52de99d0b74cb431d5bd06fcdd992b7243f7d1e8bbbf67dbdf297d7830"
+        },
+        {
+          "relative_path": "raw/DJI_0097.DNG",
+          "kind": "raw",
+          "size_bytes": 41014886,
+          "sha256": "3ec953264e44c26582de540e2679e7a8f784f7cdbeeb2ea8a394f08b0c88994f"
+        },
+        {
+          "relative_path": "raw/DJI_0098.DNG",
+          "kind": "raw",
+          "size_bytes": 41021560,
+          "sha256": "70138fb4b139ff3fcdd531cc72531296f0679a6e70d8eaec809b266e1c46df78"
+        },
+        {
+          "relative_path": "raw/DJI_0099.DNG",
+          "kind": "raw",
+          "size_bytes": 41025509,
+          "sha256": "2b5a1278033e305e392174e09f64e45b7990845c1fd0062c918c25974d000c3e"
+        },
+        {
+          "relative_path": "raw/DJI_0100.DNG",
+          "kind": "raw",
+          "size_bytes": 41027257,
+          "sha256": "b9563bef428d1201e2a3d161eea49928a3903bb71585bd90a41a53e37b2669f0"
+        },
+        {
+          "relative_path": "raw/DJI_0101.DNG",
+          "kind": "raw",
+          "size_bytes": 41033510,
+          "sha256": "42a1a77f6103e47b1a2a83ca3d15cc8a8e54a9297cfad93813f3afe68df300d9"
+        },
+        {
+          "relative_path": "raw/DJI_0102.DNG",
+          "kind": "raw",
+          "size_bytes": 41035140,
+          "sha256": "5b7bbc4072612afd3809698c6b5a1efb7fb4bb83deeaefd35709afce448fc245"
+        },
+        {
+          "relative_path": "raw/DJI_0103.DNG",
+          "kind": "raw",
+          "size_bytes": 41034414,
+          "sha256": "87d858d86dd636caa3c5c70776eef6d7033d092b78c02ae701ae6c008ba97b9b"
+        },
+        {
+          "relative_path": "raw/DJI_0104.DNG",
+          "kind": "raw",
+          "size_bytes": 41016082,
+          "sha256": "adb0c3fe15175fc18b0b8f4fc0d25562f82a9246e729e4ed9943735eb85c272e"
+        },
+        {
+          "relative_path": "raw/DJI_0105.DNG",
+          "kind": "raw",
+          "size_bytes": 40996969,
+          "sha256": "9062edad75e8180e3e5adb7a5ea160f957c1d494230ed7ccc2ea2be32a3e016b"
+        },
+        {
+          "relative_path": "raw/DJI_0106.DNG",
+          "kind": "raw",
+          "size_bytes": 40987716,
+          "sha256": "c1777184758a0c7c34c7eae648770c3439b071f9a43890ee4ea86a9e3a71cc5c"
+        },
+        {
+          "relative_path": "raw/DJI_0107.DNG",
+          "kind": "raw",
+          "size_bytes": 40970314,
+          "sha256": "a10c76704edaf97e711051d5e08b57079a145cdb5e6758826cc94a13a5e1daca"
+        },
+        {
+          "relative_path": "raw/DJI_0108.DNG",
+          "kind": "raw",
+          "size_bytes": 40969095,
+          "sha256": "021131f79daec6286d99e59a01b8e958df06ed525c566014022e50dd0dedea5d"
+        },
+        {
+          "relative_path": "raw/DJI_0109.DNG",
+          "kind": "raw",
+          "size_bytes": 40978624,
+          "sha256": "b12287bc530f17517e6f48a1fd21ee01de7a3d341bda246efae0715b617e61e2"
+        },
+        {
+          "relative_path": "raw/DJI_0110.DNG",
+          "kind": "raw",
+          "size_bytes": 40978976,
+          "sha256": "2443c14bc984dafa84a8f9201ff5347b77c30284bb066300456500339b8bdb1f"
+        },
+        {
+          "relative_path": "raw/DJI_0111.DNG",
+          "kind": "raw",
+          "size_bytes": 40979809,
+          "sha256": "66b736f5be69c11af0577f0285e95ac33c3953558d65cda5c26927b471342bf5"
+        },
+        {
+          "relative_path": "raw/DJI_0112.DNG",
+          "kind": "raw",
+          "size_bytes": 40985178,
+          "sha256": "6fa1c0f66972e9e34b276e3229ea69e133e479bba71038ed877b545c6e9cfdcb"
+        },
+        {
+          "relative_path": "raw/DJI_0113.DNG",
+          "kind": "raw",
+          "size_bytes": 40986036,
+          "sha256": "ecd795c13af9f51ea905e8ae886588dfa54d260e36c37fdcd3faee79fa28281a"
+        },
+        {
+          "relative_path": "raw/DJI_0114.DNG",
+          "kind": "raw",
+          "size_bytes": 40976077,
+          "sha256": "62a639f6080cb58cdf4831e3e775e5b477074aaa2480805f20e01a1d6aef5f40"
+        },
+        {
+          "relative_path": "raw/DJI_0115.DNG",
+          "kind": "raw",
+          "size_bytes": 40982681,
+          "sha256": "d2e1f91428aa174e124949d878140bc5bca5ba7cd63712216cbd366b0c63ff83"
+        },
+        {
+          "relative_path": "raw/DJI_0116.DNG",
+          "kind": "raw",
+          "size_bytes": 41009771,
+          "sha256": "fb109c92665cd9cb5efaadd192758310d6969570fc6faa621b0a5fc4e29f0a28"
+        },
+        {
+          "relative_path": "raw/DJI_0117.DNG",
+          "kind": "raw",
+          "size_bytes": 41028707,
+          "sha256": "46d887070460ae150f8933c9ce3f10e7fef0d9c90065aade209232d152b50560"
+        },
+        {
+          "relative_path": "raw/DJI_0118.DNG",
+          "kind": "raw",
+          "size_bytes": 41058067,
+          "sha256": "41ba9ac98e5f2128c1d3507139637f1e047d7b802c5a13357f070ee53b12941d"
+        },
+        {
+          "relative_path": "raw/DJI_0119.DNG",
+          "kind": "raw",
+          "size_bytes": 41038136,
+          "sha256": "78bf27888966dd65f09432e3dd2ae5c458987153124b6be6887ea29eb6c90d08"
+        },
+        {
+          "relative_path": "raw/DJI_0120.DNG",
+          "kind": "raw",
+          "size_bytes": 40981846,
+          "sha256": "c2762ad59b8d72b0f016126d937affd7d44f95d22131a99465494e572f61489a"
+        },
+        {
+          "relative_path": "processed/Area_A/dsm.tif",
+          "kind": "processed",
+          "size_bytes": 334255555,
+          "sha256": "b4076c7dea2c948e671b0b8640ef7a56e3413beb907acf4f68c226abd76a940a"
+        },
+        {
+          "relative_path": "processed/Area_A/model.glb",
+          "kind": "processed",
+          "size_bytes": 168380136,
+          "sha256": "a0b6efffafaedc2c0b3be55e995b8e13e1049c6737b24deafbc9e1f49d808230"
+        },
+        {
+          "relative_path": "processed/Area_A/orthophoto.tif",
+          "kind": "processed",
+          "size_bytes": 2110727540,
+          "sha256": "cf7f308402e2a0f137273e5c76fbc08deae17a1895e3d682cdacee91711d1666"
+        },
+        {
+          "relative_path": "processed/Area_A/pointcloud.laz",
+          "kind": "processed",
+          "size_bytes": 86981338,
+          "sha256": "c2b259524e905b596851da758574bb8bb9ef9fbe1f540aa69d0a6d173820d1a0"
+        },
+        {
+          "relative_path": "processed/Area_A/report.pdf",
+          "kind": "processed",
+          "size_bytes": 10378991,
+          "sha256": "797c90ed309137224d4652633ae3e319f799aca43696c24063ca16967252fe18"
+        },
+        {
+          "relative_path": "processed/Area_A/shots.geojson",
+          "kind": "processed",
+          "size_bytes": 46301,
+          "sha256": "8861dbb02c7470d99e65cca70a0a67b770a0537dac2a17959d37d5da856ed636"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Area B",
+      "bounds": {
+        "west": 73.76366402025909,
+        "south": 20.016355570474932,
+        "east": 73.76461575668878,
+        "north": 20.016838669794794
+      },
+      "source_crs": "EPSG:32643",
+      "assets": [
+        {
+          "relative_path": "raw/DJI_0124.DNG",
+          "kind": "raw",
+          "size_bytes": 40983638,
+          "sha256": "451b9b2f0df0bd5a76f49564486ff6518970cbd63a44bf8c83a17cf6ccb0d477"
+        },
+        {
+          "relative_path": "raw/DJI_0125.DNG",
+          "kind": "raw",
+          "size_bytes": 41000195,
+          "sha256": "46fce1b6db412d8ff0f3cfe89a30e263c7c3481923f3dd5a215d18e1ce72da8e"
+        },
+        {
+          "relative_path": "raw/DJI_0126.DNG",
+          "kind": "raw",
+          "size_bytes": 41007645,
+          "sha256": "e5cf9c1d35f59424b6e0fa6302c3769be0b64058c6f152cac068c9117b2ad924"
+        },
+        {
+          "relative_path": "raw/DJI_0127.DNG",
+          "kind": "raw",
+          "size_bytes": 40994039,
+          "sha256": "1a2c07e4080475667e9f118863189f6730b85f9791a122450434053c87ff09c6"
+        },
+        {
+          "relative_path": "raw/DJI_0128.DNG",
+          "kind": "raw",
+          "size_bytes": 40981526,
+          "sha256": "72f7cc1fa54c986cebeb16b1c40239978e8be19367c749f290959d6c4beb923e"
+        },
+        {
+          "relative_path": "raw/DJI_0129.DNG",
+          "kind": "raw",
+          "size_bytes": 40985211,
+          "sha256": "32fe4fa3900b96f1647badf2f3b82915e20800659363076dc764c3a7c2b4c3d7"
+        },
+        {
+          "relative_path": "raw/DJI_0130.DNG",
+          "kind": "raw",
+          "size_bytes": 40957517,
+          "sha256": "0dc487f96bb3d1c1410f0f873a8bb2176a377616cd4e6106cc7eaeddd11adccd"
+        },
+        {
+          "relative_path": "raw/DJI_0131.DNG",
+          "kind": "raw",
+          "size_bytes": 40963663,
+          "sha256": "cb84d927993cac3edda7d780fc0f1e44ac8f1ca32ce3253bfdde42ece791ffe4"
+        },
+        {
+          "relative_path": "raw/DJI_0132.DNG",
+          "kind": "raw",
+          "size_bytes": 40956748,
+          "sha256": "9ad491f8dcad7e6a5e8e0d78cf37226467142ea0d0a01f216bdfa200644d46ce"
+        },
+        {
+          "relative_path": "raw/DJI_0133.DNG",
+          "kind": "raw",
+          "size_bytes": 40945174,
+          "sha256": "5e5fad86cf68894aae71db88701c9b28fda4977d0efc1a34f142b453af60a1b1"
+        },
+        {
+          "relative_path": "raw/DJI_0134.DNG",
+          "kind": "raw",
+          "size_bytes": 40938450,
+          "sha256": "ec3512692c1157a4e7f1a9a9e8671f564f0eec6c5d56609773be5849def43e6f"
+        },
+        {
+          "relative_path": "raw/DJI_0135.DNG",
+          "kind": "raw",
+          "size_bytes": 40944518,
+          "sha256": "78787078f59b0b48ec66b87600351bbd10b1ab39ea007a2e7c38eb5c2b88be17"
+        },
+        {
+          "relative_path": "raw/DJI_0136.DNG",
+          "kind": "raw",
+          "size_bytes": 40953110,
+          "sha256": "f5d8a9378dc33deab22d80e68532d41b6a68d01f4b90894c8bbaba7666ca44fc"
+        },
+        {
+          "relative_path": "raw/DJI_0137.DNG",
+          "kind": "raw",
+          "size_bytes": 40941187,
+          "sha256": "71bd862badf2e1bd309b9c6a20d3e9833d60d53ebb9162ee2ecda641a3991f0f"
+        },
+        {
+          "relative_path": "raw/DJI_0138.DNG",
+          "kind": "raw",
+          "size_bytes": 40937099,
+          "sha256": "e1b2bc4bb8121dc346d7f15c0de13f7917ccac680a85706b532e911cb89ec354"
+        },
+        {
+          "relative_path": "raw/DJI_0139.DNG",
+          "kind": "raw",
+          "size_bytes": 40943362,
+          "sha256": "6bac3576cfb8b7be43f57043b51cf4323abc3700fcf09304564f193727ad4ece"
+        },
+        {
+          "relative_path": "raw/DJI_0140.DNG",
+          "kind": "raw",
+          "size_bytes": 40951895,
+          "sha256": "bc40dd5e9266c537ce0a6341daa39e0601ba9f74ed6a820e9f9dad7e05b5db31"
+        },
+        {
+          "relative_path": "raw/DJI_0141.DNG",
+          "kind": "raw",
+          "size_bytes": 40945506,
+          "sha256": "d27ab1a6403977689c3f0b50de0ccb54e408e21b5fac36d89e6121ef0fd13a32"
+        },
+        {
+          "relative_path": "processed/Area_B/dsm.tif",
+          "kind": "processed",
+          "size_bytes": 51543256,
+          "sha256": "22fd795f01d8b4670216ba18625f79066e242c71d6bc5fa94eceaf045f6841c0"
+        },
+        {
+          "relative_path": "processed/Area_B/model.glb",
+          "kind": "processed",
+          "size_bytes": 32595216,
+          "sha256": "6ff28a3d4454c0b090d9fa182dfebfdca0f73e61baa8b06e1944b315a1db78e5"
+        },
+        {
+          "relative_path": "processed/Area_B/orthophoto.tif",
+          "kind": "processed",
+          "size_bytes": 338939382,
+          "sha256": "cc2873d07bb4158a6546bffce11c335dd300041786c37104b06d23809932002b"
+        },
+        {
+          "relative_path": "processed/Area_B/pointcloud.laz",
+          "kind": "processed",
+          "size_bytes": 17877684,
+          "sha256": "6f74ec6d9bfeb8baf86bdbf3346b11cd23bed02da21dc93939c2481ab4618ab9"
+        },
+        {
+          "relative_path": "processed/Area_B/report.pdf",
+          "kind": "processed",
+          "size_bytes": 8520036,
+          "sha256": "e81b493ce5236bf95644c981538e57b062a03b32e3f31fa6235383f912b6af48"
+        },
+        {
+          "relative_path": "processed/Area_B/shots.geojson",
+          "kind": "processed",
+          "size_bytes": 8366,
+          "sha256": "7ebfb771ca0c3b7ed894213db1463b4bbebacb6a778aa9afe6ef1085d558bb94"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Area C",
+      "bounds": {
+        "west": 73.76186150150183,
+        "south": 20.01576198732812,
+        "east": 73.76321344656704,
+        "north": 20.017578247367076
+      },
+      "source_crs": "EPSG:32643",
+      "assets": [
+        {
+          "relative_path": "raw/DJI_0144.DNG",
+          "kind": "raw",
+          "size_bytes": 40986068,
+          "sha256": "ad8d9e55378014ff4d827414bf0dc516161b8ddaa1eb26c7b3e43be08c14a423"
+        },
+        {
+          "relative_path": "raw/DJI_0145.DNG",
+          "kind": "raw",
+          "size_bytes": 40993146,
+          "sha256": "5c8881684c4f7160ec1a1da98bb21e2ce2d74fc2133809a311fada5f797d011d"
+        },
+        {
+          "relative_path": "raw/DJI_0146.DNG",
+          "kind": "raw",
+          "size_bytes": 40995179,
+          "sha256": "a35a69847ecaeb33760f1a5c961c7e8dacc6f9f62131ec5ef04e27aabd5a5dbe"
+        },
+        {
+          "relative_path": "raw/DJI_0147.DNG",
+          "kind": "raw",
+          "size_bytes": 40994988,
+          "sha256": "1bc56787af829f0318176173c75581f3a6ff17528b9e94061386dea3e6292f58"
+        },
+        {
+          "relative_path": "raw/DJI_0148.DNG",
+          "kind": "raw",
+          "size_bytes": 40997811,
+          "sha256": "66e8199c3098f994205928c5865a7907ae4e27c319bd58d169ebba17bc96fa8b"
+        },
+        {
+          "relative_path": "raw/DJI_0149.DNG",
+          "kind": "raw",
+          "size_bytes": 40993039,
+          "sha256": "f9f1a90d0fe67de29c32b5d5349172f135b44b57bff52d894d1187ab3411899c"
+        },
+        {
+          "relative_path": "raw/DJI_0150.DNG",
+          "kind": "raw",
+          "size_bytes": 40986215,
+          "sha256": "2881b9ec37d4f5f8bba439a2d8c0e0626fcde3da84b329f314546f70d9712ace"
+        },
+        {
+          "relative_path": "raw/DJI_0151.DNG",
+          "kind": "raw",
+          "size_bytes": 40982333,
+          "sha256": "f6ccd7b6f9e94adabffdb334cfccc4eec283e2259fad5d281e5663aef1440bb7"
+        },
+        {
+          "relative_path": "raw/DJI_0152.DNG",
+          "kind": "raw",
+          "size_bytes": 40983010,
+          "sha256": "aeb5052ac3b63b071690c683d174f694fe5ea2f929b0e308143697f3408f5402"
+        },
+        {
+          "relative_path": "raw/DJI_0153.DNG",
+          "kind": "raw",
+          "size_bytes": 40977817,
+          "sha256": "06094eb191a7b6523008d1d0017b57be82945d13e5c15c0dcad9d2ab10b4adc3"
+        },
+        {
+          "relative_path": "raw/DJI_0154.DNG",
+          "kind": "raw",
+          "size_bytes": 40971526,
+          "sha256": "41e7fb017f409a29364a02cdbccb357cb8a988f7d5c815ef4c67e241963a4425"
+        },
+        {
+          "relative_path": "raw/DJI_0155.DNG",
+          "kind": "raw",
+          "size_bytes": 40976853,
+          "sha256": "7f9f0d1877560ada3abcbf9d822380bc93cdf9990e35a26928956b324b303301"
+        },
+        {
+          "relative_path": "raw/DJI_0156.DNG",
+          "kind": "raw",
+          "size_bytes": 40986108,
+          "sha256": "303f27e184c6bfe85209c6c43e50cf3618f7acd0ffadc3861a982b4350945659"
+        },
+        {
+          "relative_path": "raw/DJI_0157.DNG",
+          "kind": "raw",
+          "size_bytes": 40996402,
+          "sha256": "cdf21e8dbc33b60e3340dc5b2adbae9fae17441b155fa70e5510d59e4f04bf56"
+        },
+        {
+          "relative_path": "raw/DJI_0158.DNG",
+          "kind": "raw",
+          "size_bytes": 40990908,
+          "sha256": "3b9c941137d0601045d790792f5ef214a6fbda6a79986d2d767f680d225dc3cc"
+        },
+        {
+          "relative_path": "raw/DJI_0159.DNG",
+          "kind": "raw",
+          "size_bytes": 40977001,
+          "sha256": "8d6650be05bcc375cbabd4e4d1c7eafe1e19608d8c61b7b99be01f452e660e2d"
+        },
+        {
+          "relative_path": "raw/DJI_0160.DNG",
+          "kind": "raw",
+          "size_bytes": 40977398,
+          "sha256": "84e57ddb03f83f3df615a98768c1bdf90b1e0ff2c7d921b2e5feba181ddf142b"
+        },
+        {
+          "relative_path": "raw/DJI_0161.DNG",
+          "kind": "raw",
+          "size_bytes": 40983842,
+          "sha256": "a2c3263587b88897c447ccf27a63f3c7a5c1866b9b16e8967d6a953db2dee8b2"
+        },
+        {
+          "relative_path": "raw/DJI_0162.DNG",
+          "kind": "raw",
+          "size_bytes": 40983884,
+          "sha256": "4e9b810432e7b8aeb144e8aba87f54994acaafa5368144c47ff1ca40e87f62f9"
+        },
+        {
+          "relative_path": "raw/DJI_0163.DNG",
+          "kind": "raw",
+          "size_bytes": 40976030,
+          "sha256": "e0988af1ca3e9c98dc82046040c68da6eb7f6d7e4b6de8761a7d5f965e0f7814"
+        },
+        {
+          "relative_path": "raw/DJI_0164.DNG",
+          "kind": "raw",
+          "size_bytes": 40970367,
+          "sha256": "1fd65479d5f6bfb73357e62775d54fb0b4f329a87f383c95eb3dc79d26b0634a"
+        },
+        {
+          "relative_path": "raw/DJI_0165.DNG",
+          "kind": "raw",
+          "size_bytes": 40970965,
+          "sha256": "9721452f746e05fb0888f74237d5a421d93a536b66581da071be4f0875d3e600"
+        },
+        {
+          "relative_path": "raw/DJI_0166.DNG",
+          "kind": "raw",
+          "size_bytes": 40969410,
+          "sha256": "8d1633dd96b8f2a67bfbade3dcb9fea615e1abaac8b01a4555d7627785fba118"
+        },
+        {
+          "relative_path": "raw/DJI_0167.DNG",
+          "kind": "raw",
+          "size_bytes": 40967108,
+          "sha256": "b391ea47958162357f13e7edeb23c5846df1282a5229232bc3172b81321849e6"
+        },
+        {
+          "relative_path": "raw/DJI_0168.DNG",
+          "kind": "raw",
+          "size_bytes": 40964433,
+          "sha256": "0d385d81e057315fdda626df991bfb0b90225d1b6bd083a0aa9a64fe88a971c1"
+        },
+        {
+          "relative_path": "raw/DJI_0169.DNG",
+          "kind": "raw",
+          "size_bytes": 40954305,
+          "sha256": "67bf55b96f47335b5e3393f2d05e295c23b2e44bca0ffc152b81a994fee73067"
+        },
+        {
+          "relative_path": "raw/DJI_0170.DNG",
+          "kind": "raw",
+          "size_bytes": 40990080,
+          "sha256": "f92aecd349ea3bbdcb70991d24f9b52a3666f98ea7e4b2f258861db49b05a071"
+        },
+        {
+          "relative_path": "raw/DJI_0171.DNG",
+          "kind": "raw",
+          "size_bytes": 40998763,
+          "sha256": "a5eb3743b6755af093685156b89e5df67304ac0191252b83a866004c05f3753f"
+        },
+        {
+          "relative_path": "raw/DJI_0172.DNG",
+          "kind": "raw",
+          "size_bytes": 40992202,
+          "sha256": "64da5ad1887e83a7f97c217b18e63a1d615d745fcd3ccf5fd634f5f0cffedd99"
+        },
+        {
+          "relative_path": "raw/DJI_0173.DNG",
+          "kind": "raw",
+          "size_bytes": 41004189,
+          "sha256": "3324523ce357eb089575f6335444780a35e78978578f8a491b1166d8a289d0aa"
+        },
+        {
+          "relative_path": "raw/DJI_0174.DNG",
+          "kind": "raw",
+          "size_bytes": 41018882,
+          "sha256": "33165fc67d60664eb9fa09954d89cded13225af4322f8d0bc6f19906692d10b5"
+        },
+        {
+          "relative_path": "raw/DJI_0175.DNG",
+          "kind": "raw",
+          "size_bytes": 41028110,
+          "sha256": "a30d6467acdd099f23be170b804e81d1bede334fff7235359a1937f66551fdea"
+        },
+        {
+          "relative_path": "raw/DJI_0176.DNG",
+          "kind": "raw",
+          "size_bytes": 41021656,
+          "sha256": "ab965c8dfb89ff1528a497b86ad9d13c07f4c5e0f123f02b5aae63a85bff1ded"
+        },
+        {
+          "relative_path": "raw/DJI_0177.DNG",
+          "kind": "raw",
+          "size_bytes": 41023066,
+          "sha256": "ab126e9c56ab2a29b7d3ba9a8f110ba54526e683dbccaa37582688e3cae0ccb0"
+        },
+        {
+          "relative_path": "raw/DJI_0178.DNG",
+          "kind": "raw",
+          "size_bytes": 41015269,
+          "sha256": "01f6662cee00cf42b592a6cc9304860d1b2dd88ee9a946ba7b8d074b7f65dd97"
+        },
+        {
+          "relative_path": "raw/DJI_0179.DNG",
+          "kind": "raw",
+          "size_bytes": 41002047,
+          "sha256": "6ee9220f86ef233050ea0bdaaf2a758b900b40764df1bc91c0756e802c3482eb"
+        },
+        {
+          "relative_path": "raw/DJI_0180.DNG",
+          "kind": "raw",
+          "size_bytes": 41002946,
+          "sha256": "03449571fb31d67e1e15f2ff006bf580ee7e66793c6cd3f16e4a99f6efec477f"
+        },
+        {
+          "relative_path": "raw/DJI_0181.DNG",
+          "kind": "raw",
+          "size_bytes": 41012521,
+          "sha256": "36707c3fc3a70b9f6e1daeb9cd17bc6b7b7ba497aa32d8cb349e8c6c88dae07b"
+        },
+        {
+          "relative_path": "raw/DJI_0182.DNG",
+          "kind": "raw",
+          "size_bytes": 41002969,
+          "sha256": "ab12e3cda5bff8d6ee4f6d6b0bd8ad4854e218fd8cfe7a945679ed375d7ea94f"
+        },
+        {
+          "relative_path": "raw/DJI_0183.DNG",
+          "kind": "raw",
+          "size_bytes": 41023061,
+          "sha256": "e410686c9310ea966333f80fa2c0c4ff5009a3df68307a53cce46ebc481e2a8f"
+        },
+        {
+          "relative_path": "raw/DJI_0184.DNG",
+          "kind": "raw",
+          "size_bytes": 41027782,
+          "sha256": "3ada0a5303a2dfdfaee16dfd92e29f7ab162503c8eddc61e112f415c895f36c5"
+        },
+        {
+          "relative_path": "raw/DJI_0185.DNG",
+          "kind": "raw",
+          "size_bytes": 41029024,
+          "sha256": "caa97302b6633c9348892bce68390e31790fd0381e4ebd2d039dd776a9e13b62"
+        },
+        {
+          "relative_path": "raw/DJI_0186.DNG",
+          "kind": "raw",
+          "size_bytes": 41033411,
+          "sha256": "464e84ed21ce08842cd640567b2ff2c9c9a494189601e845b0e88afcefc9c562"
+        },
+        {
+          "relative_path": "raw/DJI_0187.DNG",
+          "kind": "raw",
+          "size_bytes": 41025621,
+          "sha256": "d4d72476d877debfa78cc1b8383e12ff2cca03e9ea6be479cb83504631ef1031"
+        },
+        {
+          "relative_path": "raw/DJI_0188.DNG",
+          "kind": "raw",
+          "size_bytes": 41009111,
+          "sha256": "ccdd7fbb449e175ffe199c96014f662f92b5f8b973db2df836bb80d69569a622"
+        },
+        {
+          "relative_path": "raw/DJI_0189.DNG",
+          "kind": "raw",
+          "size_bytes": 40991601,
+          "sha256": "4513881cd64f21a351132716a9f3e92b61601939c35e25a69bd5713ea2f7d515"
+        },
+        {
+          "relative_path": "raw/DJI_0190.DNG",
+          "kind": "raw",
+          "size_bytes": 40980794,
+          "sha256": "b98c6e8ee4bd3c67120ab049c1cacf95b1f3fdccbb504127907e6ff9a6da4477"
+        },
+        {
+          "relative_path": "raw/DJI_0191.DNG",
+          "kind": "raw",
+          "size_bytes": 40975350,
+          "sha256": "129d606b18cd38098843eb4b536f8fbb2d6ae99d73296b306d91265b6f16650b"
+        },
+        {
+          "relative_path": "raw/DJI_0192.DNG",
+          "kind": "raw",
+          "size_bytes": 40962540,
+          "sha256": "9469fce2e8682031cccade6d7f9b51967fc6870b0130a4eb01e98bd1808f0588"
+        },
+        {
+          "relative_path": "raw/DJI_0193.DNG",
+          "kind": "raw",
+          "size_bytes": 40975901,
+          "sha256": "0d0a196fe36bcf70bcbf6e4d0d0912721d32e745430e9e241b97c856781f8a77"
+        },
+        {
+          "relative_path": "raw/DJI_0194.DNG",
+          "kind": "raw",
+          "size_bytes": 40982366,
+          "sha256": "6c5bc0cadc3dfad2659e44ca9b5f94eca07c212e6b22df9e4f86589788a16da6"
+        },
+        {
+          "relative_path": "raw/DJI_0195.DNG",
+          "kind": "raw",
+          "size_bytes": 40992483,
+          "sha256": "9c8ba46ad0f3e152e33971f0e16bcdcbcec4af907cff14cdd60c3b6dedfacb4e"
+        },
+        {
+          "relative_path": "raw/DJI_0196.DNG",
+          "kind": "raw",
+          "size_bytes": 41002848,
+          "sha256": "21c7ca12cdc5492abffb26d905baeb19acc58dce7b23fc7484b1cefe1ba0a67a"
+        },
+        {
+          "relative_path": "raw/DJI_0197.DNG",
+          "kind": "raw",
+          "size_bytes": 41005434,
+          "sha256": "8c4eb7abf50e322ee1063613bc4f72bf036fbeb03970531f1421ddc0491094f9"
+        },
+        {
+          "relative_path": "raw/DJI_0198.DNG",
+          "kind": "raw",
+          "size_bytes": 41019352,
+          "sha256": "3d488d2eb424c1ed0c019e78e880cf00d205a680af7b6caf21feee3cf20841f6"
+        },
+        {
+          "relative_path": "raw/DJI_0199.DNG",
+          "kind": "raw",
+          "size_bytes": 41007524,
+          "sha256": "504e02ab1fe0ea80d5c09a931a7f58f235dcab64ec1fd360c0f270332ad5acd9"
+        },
+        {
+          "relative_path": "raw/DJI_0200.DNG",
+          "kind": "raw",
+          "size_bytes": 40972784,
+          "sha256": "02efab55499626aeab8df5d04ea1539ad090febea9fe64128d6ca096a541039b"
+        },
+        {
+          "relative_path": "raw/DJI_0201.DNG",
+          "kind": "raw",
+          "size_bytes": 41020582,
+          "sha256": "a32d9843251aac75b63b197d348cc48ad1f9c8fe079482018b7f7747f3e8bdad"
+        },
+        {
+          "relative_path": "raw/DJI_0202.DNG",
+          "kind": "raw",
+          "size_bytes": 41011175,
+          "sha256": "bdd8057b5b0fb9910ce54aca2ee8e395316e41763f3904d5a3c9d43590a408cc"
+        },
+        {
+          "relative_path": "raw/DJI_0203.DNG",
+          "kind": "raw",
+          "size_bytes": 40977238,
+          "sha256": "535377b07c74bc8cb9cf08312f74decc9636cb575e7fd26e78e3018442eca895"
+        },
+        {
+          "relative_path": "raw/DJI_0204.DNG",
+          "kind": "raw",
+          "size_bytes": 40952576,
+          "sha256": "627eea489ed5697ecc8f93478801111aeef53fccf8b7552716a81890e2a0818d"
+        },
+        {
+          "relative_path": "raw/DJI_0205.DNG",
+          "kind": "raw",
+          "size_bytes": 40932263,
+          "sha256": "47c3178f1a50796276e9e433dad369dc94629039f99b0108b3458f1b724ef441"
+        },
+        {
+          "relative_path": "raw/DJI_0206.DNG",
+          "kind": "raw",
+          "size_bytes": 40928286,
+          "sha256": "8f823430f70fa07596f7968c13d527273a25d1648d0210b96e2e7706c5701f4a"
+        },
+        {
+          "relative_path": "raw/DJI_0207.DNG",
+          "kind": "raw",
+          "size_bytes": 40930258,
+          "sha256": "67df86d9d074ba8ecf59998cd7befde0c9a89a0683180bf42c2cbe3572183861"
+        },
+        {
+          "relative_path": "raw/DJI_0208.DNG",
+          "kind": "raw",
+          "size_bytes": 40938692,
+          "sha256": "7d679229973f51201ac463445bd1e94fa75d7eed6faf9182c45fb0d8fcede861"
+        },
+        {
+          "relative_path": "raw/DJI_0209.DNG",
+          "kind": "raw",
+          "size_bytes": 40948581,
+          "sha256": "1d26db7548aa6d3899872ed92b366dc4ebc90b65edc3612cc624a402a5a2c205"
+        },
+        {
+          "relative_path": "raw/DJI_0210.DNG",
+          "kind": "raw",
+          "size_bytes": 40966276,
+          "sha256": "c6fb13bb03a1839ba7570a2a8cfec8e6391ce6caaf5435218f7ae3a812c2ef04"
+        },
+        {
+          "relative_path": "raw/DJI_0211.DNG",
+          "kind": "raw",
+          "size_bytes": 40994446,
+          "sha256": "79aa81ea293889c76691df6feb0394ce36007f0d5815e093811a62881580c9e1"
+        },
+        {
+          "relative_path": "raw/DJI_0212.DNG",
+          "kind": "raw",
+          "size_bytes": 41012486,
+          "sha256": "1425764928713965d6a434c30d8acfb38a1c4372113a90eea7636ca75cbd5c28"
+        },
+        {
+          "relative_path": "raw/DJI_0213.DNG",
+          "kind": "raw",
+          "size_bytes": 41017710,
+          "sha256": "aafa78fcaf23c5fed372b4b432ab9d06f9059373aea66f328cfedbc77da65b4f"
+        },
+        {
+          "relative_path": "raw/DJI_0214.DNG",
+          "kind": "raw",
+          "size_bytes": 41013760,
+          "sha256": "59383105cf68883327ed2612abd301bd6a6b2ee59246c40e1cf5e5161bf3d512"
+        },
+        {
+          "relative_path": "raw/DJI_0215.DNG",
+          "kind": "raw",
+          "size_bytes": 40998729,
+          "sha256": "d4b797a289e95c65a3393566924504383ef7e761420c4ce430a284c5a583273f"
+        },
+        {
+          "relative_path": "raw/DJI_0216.DNG",
+          "kind": "raw",
+          "size_bytes": 40987664,
+          "sha256": "f2bcad43030c4b6ff6fd77a9830a16b23610eff7b7e81abda270f60d188a3f89"
+        },
+        {
+          "relative_path": "raw/DJI_0217.DNG",
+          "kind": "raw",
+          "size_bytes": 40998695,
+          "sha256": "2007fe3bee63f8ce8c86ab3ad12690adb75d1b34056d39958f248b33fe37efd0"
+        },
+        {
+          "relative_path": "raw/DJI_0218.DNG",
+          "kind": "raw",
+          "size_bytes": 40999779,
+          "sha256": "f62a3c7be247213aab7f23e79ba3ae0be30512b32a1b63ef8693799a7e467f96"
+        },
+        {
+          "relative_path": "raw/DJI_0219.DNG",
+          "kind": "raw",
+          "size_bytes": 40979890,
+          "sha256": "9b4d6619f9d775ab4012696bbeabd93824df979b88ede08ec6ad6b900649b36c"
+        },
+        {
+          "relative_path": "raw/DJI_0220.DNG",
+          "kind": "raw",
+          "size_bytes": 40960643,
+          "sha256": "7d435b2f66f345deaa826c2a6b3a1554c7becbfb7504c3452061e3caf72b786e"
+        },
+        {
+          "relative_path": "raw/DJI_0221.DNG",
+          "kind": "raw",
+          "size_bytes": 40942579,
+          "sha256": "b5f35a71928e1f3878de237eafea549269fb0a93e0237a5e8181659b5ba654f2"
+        },
+        {
+          "relative_path": "raw/DJI_0222.DNG",
+          "kind": "raw",
+          "size_bytes": 40936462,
+          "sha256": "43719b93321396c33179e98ccf8a29cb67b4ce661de5dbbb2f8f6e157b52c486"
+        },
+        {
+          "relative_path": "raw/DJI_0223.DNG",
+          "kind": "raw",
+          "size_bytes": 40939469,
+          "sha256": "6b713bfe70320bc904f01e9a0e505b9e47cfa510e1142314df037ed6ce038d5d"
+        },
+        {
+          "relative_path": "raw/DJI_0224.DNG",
+          "kind": "raw",
+          "size_bytes": 40950042,
+          "sha256": "9addd4692fb45aafce21901b7e4604554d4716c77fcff17317383c25d98e3eae"
+        },
+        {
+          "relative_path": "raw/DJI_0225.DNG",
+          "kind": "raw",
+          "size_bytes": 40960954,
+          "sha256": "26a1273910920289c2a29e16b1506d3275bedd541d768067a2fd8d336f16e523"
+        },
+        {
+          "relative_path": "raw/DJI_0226.DNG",
+          "kind": "raw",
+          "size_bytes": 40959368,
+          "sha256": "07a64d10dcba932a41e0995fae8d90e08e6f78299e4e0d0e2acc052ebd2d29af"
+        },
+        {
+          "relative_path": "raw/DJI_0227.DNG",
+          "kind": "raw",
+          "size_bytes": 40964031,
+          "sha256": "6ebc3b9e28d34957ae20fdcffb03ee53bfbd7c1453711cacecabdbe42db4f9af"
+        },
+        {
+          "relative_path": "raw/DJI_0228.DNG",
+          "kind": "raw",
+          "size_bytes": 40947228,
+          "sha256": "98ad73d882f15502e4bb0d4c71f0de8355809d4344be5f85791393a0d152cc9a"
+        },
+        {
+          "relative_path": "raw/DJI_0229.DNG",
+          "kind": "raw",
+          "size_bytes": 40937637,
+          "sha256": "ecbc9074170de076999869c79e48756b25b46b671d67478da173440751eb0820"
+        },
+        {
+          "relative_path": "raw/DJI_0230.DNG",
+          "kind": "raw",
+          "size_bytes": 40948160,
+          "sha256": "2e2561e311d45f979e61eb8d96ef74c6a77c67bd88ac03c579f0e47f3122aea8"
+        },
+        {
+          "relative_path": "raw/DJI_0231.DNG",
+          "kind": "raw",
+          "size_bytes": 40962695,
+          "sha256": "b77cc9aea72bea2cef28038665de14c7a233fd71f57e6529e2e5a011edbcd0ed"
+        },
+        {
+          "relative_path": "raw/DJI_0232.DNG",
+          "kind": "raw",
+          "size_bytes": 40973296,
+          "sha256": "6830ac118f8eaaa7d25c5a837bcad014605f19c7995ff0d3fc7505a44cf5bdc2"
+        },
+        {
+          "relative_path": "raw/DJI_0233.DNG",
+          "kind": "raw",
+          "size_bytes": 40971905,
+          "sha256": "560c83424377ce563ff6a1e65079664bee8c9f7304c9328362d4630ff82cd7f0"
+        },
+        {
+          "relative_path": "raw/DJI_0234.DNG",
+          "kind": "raw",
+          "size_bytes": 40967310,
+          "sha256": "b4fa28271073a45879a75f23498658c6dfc940f7f223f216e5ae5ad9f2b174ad"
+        },
+        {
+          "relative_path": "raw/DJI_0235.DNG",
+          "kind": "raw",
+          "size_bytes": 40951150,
+          "sha256": "0e11692c45e0e9ac33054e7a3580e1d9b0873d361bbca7d84ebd6f9ad06dc324"
+        },
+        {
+          "relative_path": "raw/DJI_0236.DNG",
+          "kind": "raw",
+          "size_bytes": 40928468,
+          "sha256": "aae216e2e83cdc3818aa025cb4dcb6241210855fa4850f9d031200f3a7b7cddc"
+        },
+        {
+          "relative_path": "raw/DJI_0237.DNG",
+          "kind": "raw",
+          "size_bytes": 40925501,
+          "sha256": "29a6d0ad995f754e8ec341b3db996822f46d0afe3a107e5135196939a1c2825f"
+        },
+        {
+          "relative_path": "raw/DJI_0238.DNG",
+          "kind": "raw",
+          "size_bytes": 40944112,
+          "sha256": "fa9513a40a1f98f1989f366ae30efdb6f7c78e038b4d4ec6351945e3226d14ef"
+        },
+        {
+          "relative_path": "raw/DJI_0239.DNG",
+          "kind": "raw",
+          "size_bytes": 40950090,
+          "sha256": "112dd9bfd4afb3cb532b726e5a586e63ebf8e153e020d98aed09aa2bd22fae36"
+        },
+        {
+          "relative_path": "raw/DJI_0240.DNG",
+          "kind": "raw",
+          "size_bytes": 40964132,
+          "sha256": "de6c7462bec31c37de0666df946ef5e20b1f9d637bc8950f402541902c4a33d7"
+        },
+        {
+          "relative_path": "raw/DJI_0241.DNG",
+          "kind": "raw",
+          "size_bytes": 40971052,
+          "sha256": "deed2e43bce2b7dda5df5da4fa01dd6ab081c6d4f02a5f2c040a3622650eb2f1"
+        },
+        {
+          "relative_path": "raw/DJI_0242.DNG",
+          "kind": "raw",
+          "size_bytes": 40975842,
+          "sha256": "5731c0c6ddbe0ae5a2d734673f44bdccd4562dc00512171c0686377515831ac7"
+        },
+        {
+          "relative_path": "raw/DJI_0243.DNG",
+          "kind": "raw",
+          "size_bytes": 40979647,
+          "sha256": "1c838242bc2e81bf3d8bc61a4ceca5c6ef3fa1d7b96df91107a6d208947c4704"
+        },
+        {
+          "relative_path": "raw/DJI_0244.DNG",
+          "kind": "raw",
+          "size_bytes": 40981038,
+          "sha256": "3f763e03be79e978e69ccf7a40d1505038fa4922faa342d5c135f515d174cf98"
+        },
+        {
+          "relative_path": "raw/DJI_0245.DNG",
+          "kind": "raw",
+          "size_bytes": 40981173,
+          "sha256": "5c6611954d13f33f311606fab3004b84ffb089e4f3e52c8fbc9f939fe76740bd"
+        },
+        {
+          "relative_path": "raw/DJI_0246.DNG",
+          "kind": "raw",
+          "size_bytes": 40957761,
+          "sha256": "bc9f792e58cfa5875d0994a8e9aa516a85ebd33cf3f18c3f088e2c702a34c8e5"
+        },
+        {
+          "relative_path": "raw/DJI_0247.DNG",
+          "kind": "raw",
+          "size_bytes": 40956954,
+          "sha256": "36bee9dea042fafb39c0c3f4b32fb71d9255ccc1769ff60e87a61f777f5dd19e"
+        },
+        {
+          "relative_path": "raw/DJI_0248.DNG",
+          "kind": "raw",
+          "size_bytes": 40963771,
+          "sha256": "5fdaa7624acb8dbdc145a10470fdccad40e55f92853c614e12817d54dd545b65"
+        },
+        {
+          "relative_path": "raw/DJI_0249.DNG",
+          "kind": "raw",
+          "size_bytes": 40959828,
+          "sha256": "14f3beaf72203c1e8f5a33b4feeda733134d6f9be085dcde8e0c527516f113b9"
+        },
+        {
+          "relative_path": "raw/DJI_0250.DNG",
+          "kind": "raw",
+          "size_bytes": 40947297,
+          "sha256": "9aaaa0c7ad40f859bcde0a52a0b73628f3a21f4f634692958774eee8b67ec452"
+        },
+        {
+          "relative_path": "raw/DJI_0251.DNG",
+          "kind": "raw",
+          "size_bytes": 40940818,
+          "sha256": "d3061380811e0ac29f165d354cd3529b6ad0a48a6edb6ccc762c7a03726269d0"
+        },
+        {
+          "relative_path": "raw/DJI_0252.DNG",
+          "kind": "raw",
+          "size_bytes": 40910332,
+          "sha256": "c7c6fe99dbf0542a4f1eb243c91ab7fd7800935ecbc31ad1fbe4588ca8ebea20"
+        },
+        {
+          "relative_path": "raw/DJI_0253.DNG",
+          "kind": "raw",
+          "size_bytes": 40889970,
+          "sha256": "81d3294a38dee8a6000695cbe5d8832a14e95a85c135202fa9f46c224f99676c"
+        },
+        {
+          "relative_path": "raw/DJI_0254.DNG",
+          "kind": "raw",
+          "size_bytes": 40920492,
+          "sha256": "91dac3df15d24d87389ed264006b9d9d809bd3b6ca9cdc84684db95a9fd7ef60"
+        },
+        {
+          "relative_path": "raw/DJI_0255.DNG",
+          "kind": "raw",
+          "size_bytes": 40957058,
+          "sha256": "622e123fd7990859612bb1f5e6218f006251d5d5646b4e4e9fd659bffd81d805"
+        },
+        {
+          "relative_path": "raw/DJI_0256.DNG",
+          "kind": "raw",
+          "size_bytes": 40980122,
+          "sha256": "a93343552ad4f05c802ccc68abfbf4c0148988f0344e92888792415179c62686"
+        },
+        {
+          "relative_path": "raw/DJI_0257.DNG",
+          "kind": "raw",
+          "size_bytes": 40977361,
+          "sha256": "087047c2e2eb9b26e7575ab1a263c88fc1cc9d67c90891e3988bba7de690fe65"
+        },
+        {
+          "relative_path": "raw/DJI_0258.DNG",
+          "kind": "raw",
+          "size_bytes": 40965974,
+          "sha256": "e4f9bf44d6381d7a847f5af6c27172232fe044c686149c7698055c1a014fc439"
+        },
+        {
+          "relative_path": "raw/DJI_0259.DNG",
+          "kind": "raw",
+          "size_bytes": 40952979,
+          "sha256": "0054f62b0cc61639e12cd1f8c064646b606620f80425aeb6ff830ae13b4d1fb3"
+        },
+        {
+          "relative_path": "raw/DJI_0260.DNG",
+          "kind": "raw",
+          "size_bytes": 40948330,
+          "sha256": "10ca15cbe86244f383f414d3c557842a15f640f6dc23ac1f979fbd8283779e0f"
+        },
+        {
+          "relative_path": "raw/DJI_0261.DNG",
+          "kind": "raw",
+          "size_bytes": 40957064,
+          "sha256": "625b3396110a44c40073029a444ac4439e6650cac27816598bcc395f48372e40"
+        },
+        {
+          "relative_path": "raw/DJI_0262.DNG",
+          "kind": "raw",
+          "size_bytes": 40969025,
+          "sha256": "f284cd5ca9004cff6cb6950d421a21deadbd7b5273926801697768cdb5612bec"
+        },
+        {
+          "relative_path": "raw/DJI_0263.DNG",
+          "kind": "raw",
+          "size_bytes": 40965883,
+          "sha256": "31650c285e9ec9e4d9049e03beb05cdd7f96469cd1a99a87430ea66e7cab1703"
+        },
+        {
+          "relative_path": "raw/DJI_0264.DNG",
+          "kind": "raw",
+          "size_bytes": 40957937,
+          "sha256": "de19d7452ee4d72f4cadc4bf834bc948bcfeffd1cc75b13d18536e44eca293ed"
+        },
+        {
+          "relative_path": "raw/DJI_0265.DNG",
+          "kind": "raw",
+          "size_bytes": 40951572,
+          "sha256": "657ca8dfb36a4ab84aa4193b3dbb3d557ea3160663bbd3ff94edba2de907fac9"
+        },
+        {
+          "relative_path": "raw/DJI_0266.DNG",
+          "kind": "raw",
+          "size_bytes": 40954852,
+          "sha256": "62b98c43cf5cb490e5d44aeb8f1c3a225cc8ff2a9d88dbbe49ee835063b810a0"
+        },
+        {
+          "relative_path": "raw/DJI_0267.DNG",
+          "kind": "raw",
+          "size_bytes": 40968239,
+          "sha256": "e4ccad9ae1a71dcad237b5ae86e2d7e233f18ddaf27b5d0d5dd0057b9bddedb9"
+        },
+        {
+          "relative_path": "raw/DJI_0268.DNG",
+          "kind": "raw",
+          "size_bytes": 40967715,
+          "sha256": "51e0d091745b6fe90ef7495e6cb902270565ed1158754ddfbefe5d0b3da9e2b7"
+        },
+        {
+          "relative_path": "raw/DJI_0269.DNG",
+          "kind": "raw",
+          "size_bytes": 40957780,
+          "sha256": "c8e8ba944fa59bf5a27d7dbaf06bc11d7d929545b6900ad8ddcf8c46969b244f"
+        },
+        {
+          "relative_path": "raw/DJI_0270.DNG",
+          "kind": "raw",
+          "size_bytes": 40928331,
+          "sha256": "7184351ae4db79f36c3c274efc95f42b0499527fa5dd194d3d4debd8dbff16b5"
+        },
+        {
+          "relative_path": "raw/DJI_0271.DNG",
+          "kind": "raw",
+          "size_bytes": 40894265,
+          "sha256": "c02d96c83ab5f48b2c011e03210eddf1402159f9c5abbcdb87143c637de291ff"
+        },
+        {
+          "relative_path": "raw/DJI_0272.DNG",
+          "kind": "raw",
+          "size_bytes": 40903804,
+          "sha256": "47ec6852efea3b96cb281a3d56b546e3e08037f57c15d53ec89a951e0c5a4096"
+        },
+        {
+          "relative_path": "raw/DJI_0273.DNG",
+          "kind": "raw",
+          "size_bytes": 40920541,
+          "sha256": "460945dfa58c4eb0fde5d926930b2838cf1a08b0c9d7a37579790c47a46652b7"
+        },
+        {
+          "relative_path": "raw/DJI_0274.DNG",
+          "kind": "raw",
+          "size_bytes": 40932428,
+          "sha256": "c08825a5341f90d8cfa69119b6f8057c01e0f82e36bff2333b65c92414e9620f"
+        },
+        {
+          "relative_path": "raw/DJI_0275.DNG",
+          "kind": "raw",
+          "size_bytes": 40937609,
+          "sha256": "f1a56bb252d910d665552114554da34ae60401b981f4460cb63955d07557e481"
+        },
+        {
+          "relative_path": "raw/DJI_0276.DNG",
+          "kind": "raw",
+          "size_bytes": 40935166,
+          "sha256": "9d3eef2f6b460dc1e89499e64976037e592d3056b9d65b63648a2a7563155085"
+        },
+        {
+          "relative_path": "raw/DJI_0277.DNG",
+          "kind": "raw",
+          "size_bytes": 40944516,
+          "sha256": "2ed7392dba0b7b697ecb93e3435a05a32de5b9a3bd588bb7163c992eaccbbd17"
+        },
+        {
+          "relative_path": "raw/DJI_0278.DNG",
+          "kind": "raw",
+          "size_bytes": 40942970,
+          "sha256": "44d41da320ebab0af088bf524fcb6651affa7745e6e8afc6a537ac5903cbd7c7"
+        },
+        {
+          "relative_path": "raw/DJI_0279.DNG",
+          "kind": "raw",
+          "size_bytes": 40934317,
+          "sha256": "91ad08a26fdf848c01d2bfdeeccb743127246be8480811a72c1b5e98f116c0e0"
+        },
+        {
+          "relative_path": "raw/DJI_0280.DNG",
+          "kind": "raw",
+          "size_bytes": 40929556,
+          "sha256": "3e6399c1a821b13253f935a4f5fbc929d6749f609a42f4a2edfb3f47ba03a70e"
+        },
+        {
+          "relative_path": "raw/DJI_0281.DNG",
+          "kind": "raw",
+          "size_bytes": 40916910,
+          "sha256": "225a756f6e867b343abe7b40f9c21a7b860a8a9429b9857be78bf7b6005c2bdf"
+        },
+        {
+          "relative_path": "raw/DJI_0282.DNG",
+          "kind": "raw",
+          "size_bytes": 40925400,
+          "sha256": "1226e0ec55d8512ad945825058ab93ad10d100974c9a20911bbaeecc4c924e5b"
+        },
+        {
+          "relative_path": "raw/DJI_0283.DNG",
+          "kind": "raw",
+          "size_bytes": 40937332,
+          "sha256": "e6fde712f61ef96237fd7c0f7134ea9214c2f9fd637b71e21346c65d00700608"
+        },
+        {
+          "relative_path": "raw/DJI_0284.DNG",
+          "kind": "raw",
+          "size_bytes": 40937568,
+          "sha256": "9d86d3397fe205df850b4cf03a40fc795ec8576c43638bd0f011720ba077530e"
+        },
+        {
+          "relative_path": "raw/DJI_0285.DNG",
+          "kind": "raw",
+          "size_bytes": 40934349,
+          "sha256": "a3570734364d80c44d04d9b460e01b118b921a25eb61342323b0e5dba1ace019"
+        },
+        {
+          "relative_path": "raw/DJI_0286.DNG",
+          "kind": "raw",
+          "size_bytes": 40928491,
+          "sha256": "56f7d3678fb1aa9c64ce75c74d6955f71152ec6eead16f5e864a46796d03b2f6"
+        },
+        {
+          "relative_path": "raw/DJI_0287.DNG",
+          "kind": "raw",
+          "size_bytes": 40923896,
+          "sha256": "1f7495af1dda82999bb9dfbf800c68a9fa0b0dd5266a3640bfaab1aa0c694a19"
+        },
+        {
+          "relative_path": "raw/DJI_0288.DNG",
+          "kind": "raw",
+          "size_bytes": 40911791,
+          "sha256": "63e9739f807a3f3a2911592b7851aecff4add0f0f2338d4661a4bcabd01ede18"
+        },
+        {
+          "relative_path": "raw/DJI_0289.DNG",
+          "kind": "raw",
+          "size_bytes": 40905647,
+          "sha256": "322897d444e5fc1aab5fcdef1a59d18fe25f6139bfd144816a1e329cbf886163"
+        },
+        {
+          "relative_path": "raw/DJI_0290.DNG",
+          "kind": "raw",
+          "size_bytes": 40923965,
+          "sha256": "a12053a9796f8dd5e31d44777b5e705de8eec8bd412f757193cb2173d212d7af"
+        },
+        {
+          "relative_path": "raw/DJI_0291.DNG",
+          "kind": "raw",
+          "size_bytes": 40953938,
+          "sha256": "f776e4b2b70f973ba4664f0c4938f5d867eac781c64a39ffa2c521694435ef67"
+        },
+        {
+          "relative_path": "raw/DJI_0292.DNG",
+          "kind": "raw",
+          "size_bytes": 40967175,
+          "sha256": "c8a46722e327bd4b52a95fc0c82f19d720ca0c9d6acb066719b701317180c93d"
+        },
+        {
+          "relative_path": "raw/DJI_0293.DNG",
+          "kind": "raw",
+          "size_bytes": 40968739,
+          "sha256": "f051cb1f0f43454bce3e06f167e4b98f43ffb316c677a981e3ed4c4c9e8515f5"
+        },
+        {
+          "relative_path": "raw/DJI_0294.DNG",
+          "kind": "raw",
+          "size_bytes": 40964238,
+          "sha256": "07003f35537c6406d4ee5f3f5898114bcce1d98a8c1e0d41e19ff4f0b4b9331f"
+        },
+        {
+          "relative_path": "raw/DJI_0295.DNG",
+          "kind": "raw",
+          "size_bytes": 40956174,
+          "sha256": "8b21462a3b3eedeb7602087fae6377ddfe5959d1c1ec0c89f1b0423eae9627bb"
+        },
+        {
+          "relative_path": "raw/DJI_0296.DNG",
+          "kind": "raw",
+          "size_bytes": 40958903,
+          "sha256": "f2ac86dd9f46f90506cafe258858ef79ef4da375bf41a7fdaede41c7c9b7bc47"
+        },
+        {
+          "relative_path": "raw/DJI_0297.DNG",
+          "kind": "raw",
+          "size_bytes": 40985348,
+          "sha256": "9fd350594ba4e5f43e6bd076be1784b0c2a40c35bb578e97b7a0f29b1a93e17f"
+        },
+        {
+          "relative_path": "raw/DJI_0298.DNG",
+          "kind": "raw",
+          "size_bytes": 40977673,
+          "sha256": "44cfe49142cb42927ed152a76377fa9ed0e927d1ecb0bcc11164a84847b5109e"
+        },
+        {
+          "relative_path": "raw/DJI_0299.DNG",
+          "kind": "raw",
+          "size_bytes": 40966317,
+          "sha256": "a9e7e0197f5851560312257195c62d79ef3f93018e64dd1ca79bb1235ddf1607"
+        },
+        {
+          "relative_path": "raw/DJI_0300.DNG",
+          "kind": "raw",
+          "size_bytes": 40965445,
+          "sha256": "065c7fe8ba7261054ba94962496ffc18aae80c20c5cfbc07c42f6147b63ba6fb"
+        },
+        {
+          "relative_path": "raw/DJI_0301.DNG",
+          "kind": "raw",
+          "size_bytes": 40964260,
+          "sha256": "fd2f37c0614fa3158fb5c1fb4d85f4adcb602cdc216fd661296789c0365712d1"
+        },
+        {
+          "relative_path": "raw/DJI_0302.DNG",
+          "kind": "raw",
+          "size_bytes": 40959321,
+          "sha256": "4a1220a4e0d05868760cfcaed1ddb0dbc46f51e8d59f118eccff6c31dd3eea1e"
+        },
+        {
+          "relative_path": "raw/DJI_0303.DNG",
+          "kind": "raw",
+          "size_bytes": 40915416,
+          "sha256": "49be096531b9e943d43e0e95940fca42fb5671777bf40fe741eaaa3a7fdaa9c7"
+        },
+        {
+          "relative_path": "raw/DJI_0304.DNG",
+          "kind": "raw",
+          "size_bytes": 40919895,
+          "sha256": "45824fe578febde13d65528592dfceacc0c6395e3b4ede2d7db899c091a48bbd"
+        },
+        {
+          "relative_path": "raw/DJI_0305.DNG",
+          "kind": "raw",
+          "size_bytes": 40927754,
+          "sha256": "ee0387d232c6e62f4b13438ff65df80208309eb208dad23a77f8e915cc690bd3"
+        },
+        {
+          "relative_path": "raw/DJI_0306.DNG",
+          "kind": "raw",
+          "size_bytes": 40922452,
+          "sha256": "ca2055183b3163b2aefe212a130f1349ca61b0d13a01a303c9c28b36f4427cf7"
+        },
+        {
+          "relative_path": "raw/DJI_0307.DNG",
+          "kind": "raw",
+          "size_bytes": 40922636,
+          "sha256": "9d3f13f711695f34da40c9fab5cef02833ee53a67c98c931bfebed57a19e85ee"
+        },
+        {
+          "relative_path": "raw/DJI_0308.DNG",
+          "kind": "raw",
+          "size_bytes": 40929021,
+          "sha256": "014038fe1d04dd7bbb3fbf709dfe6a26d7192bf43dec99cfb8a441a1942d0022"
+        },
+        {
+          "relative_path": "raw/DJI_0309.DNG",
+          "kind": "raw",
+          "size_bytes": 40928926,
+          "sha256": "eb331139ca750572dc34e3a0f9ac81cc995bc112bbbc31a2e923e0ae7f52c7f8"
+        },
+        {
+          "relative_path": "raw/DJI_0310.DNG",
+          "kind": "raw",
+          "size_bytes": 40907587,
+          "sha256": "8f2ea156ae03d1ce1d57deb14c420791627bf52eaec3c753fe16d2c20574e2c1"
+        },
+        {
+          "relative_path": "raw/DJI_0311.DNG",
+          "kind": "raw",
+          "size_bytes": 40898222,
+          "sha256": "dbefcc907d5fbd4382f12abba4acf733284502223d5127a90cc19996bc8f7093"
+        },
+        {
+          "relative_path": "raw/DJI_0312.DNG",
+          "kind": "raw",
+          "size_bytes": 40906971,
+          "sha256": "7cc3265c7a83c4b778d04bc28c35f96c6712fd4643dda3dc1991f54a1da719e7"
+        },
+        {
+          "relative_path": "raw/DJI_0313.DNG",
+          "kind": "raw",
+          "size_bytes": 40947326,
+          "sha256": "cff1c5b32f4fd031d60361eba02c6c57cc0deccfb7c4842a0027886221476080"
+        },
+        {
+          "relative_path": "raw/DJI_0314.DNG",
+          "kind": "raw",
+          "size_bytes": 40928907,
+          "sha256": "e65864ed6d7386ec48955da704a8a1a7a09745a0263e2f58eca691d85f071879"
+        },
+        {
+          "relative_path": "raw/DJI_0315.DNG",
+          "kind": "raw",
+          "size_bytes": 40917038,
+          "sha256": "56bb3b0fd7190fc6fd8282f05cf9f390d0a08e1389924eea62381e13fab0333a"
+        },
+        {
+          "relative_path": "raw/DJI_0316.DNG",
+          "kind": "raw",
+          "size_bytes": 40925129,
+          "sha256": "b6b698a65d6af92065379df73c02263f11abeeb056b3cf5bb84af788984fd434"
+        },
+        {
+          "relative_path": "raw/DJI_0317.DNG",
+          "kind": "raw",
+          "size_bytes": 40933488,
+          "sha256": "03c4664751d36f05aa058be65e29ab0042192c65b777593f499272d06d21cf61"
+        },
+        {
+          "relative_path": "raw/DJI_0318.DNG",
+          "kind": "raw",
+          "size_bytes": 40947695,
+          "sha256": "4c1f9ca9357cb281086e48396150705afbe52201a0338c5b914c57594e44bbf5"
+        },
+        {
+          "relative_path": "raw/DJI_0319.DNG",
+          "kind": "raw",
+          "size_bytes": 40958869,
+          "sha256": "d0e0855627e8acb77381debffecf37af7381277bebde6374766afca350363244"
+        },
+        {
+          "relative_path": "raw/DJI_0320.DNG",
+          "kind": "raw",
+          "size_bytes": 40961400,
+          "sha256": "968e48d7f69fb17e1d9b3401e380951c4d8ac333775b9378cdce6b9b6cffb17f"
+        },
+        {
+          "relative_path": "raw/DJI_0321.DNG",
+          "kind": "raw",
+          "size_bytes": 40962041,
+          "sha256": "c348154a2c61cf39ab39824f7d1dfbd9b3594e8632860378c344060073c004ff"
+        },
+        {
+          "relative_path": "raw/DJI_0322.DNG",
+          "kind": "raw",
+          "size_bytes": 40954964,
+          "sha256": "af0f104ac215aaafd073fb1604c4e34979929f3385b27acbb99d2408339f9fd4"
+        },
+        {
+          "relative_path": "raw/DJI_0323.DNG",
+          "kind": "raw",
+          "size_bytes": 40949316,
+          "sha256": "fbacbd44e7f257d67283beddaba81495a6e4586a961dddbc3b5daef272b9d652"
+        },
+        {
+          "relative_path": "raw/DJI_0324.DNG",
+          "kind": "raw",
+          "size_bytes": 40952538,
+          "sha256": "c87098c74f43c242b940331aafea51fb668575c601651bc65596435632967d82"
+        },
+        {
+          "relative_path": "raw/DJI_0325.DNG",
+          "kind": "raw",
+          "size_bytes": 40952588,
+          "sha256": "66ecb4cb5e92e8c52a8a38dc82d1ed730c87c0c9894fb8a2d2da1fb1647550ef"
+        },
+        {
+          "relative_path": "raw/DJI_0326.DNG",
+          "kind": "raw",
+          "size_bytes": 40951782,
+          "sha256": "d3aae05b532ff0f47d5649bc08da5a7b15930121fbe35e92b4f568eb90d41eb7"
+        },
+        {
+          "relative_path": "raw/DJI_0327.DNG",
+          "kind": "raw",
+          "size_bytes": 40951347,
+          "sha256": "8c95c736bfcfee92cd0e6af041e14785093a37e823b1eef66c238f21f42a5224"
+        },
+        {
+          "relative_path": "raw/DJI_0328.DNG",
+          "kind": "raw",
+          "size_bytes": 40958328,
+          "sha256": "1609abd296dcaf16ffd3974ac260b39a21b0c9ad432d498642d4afa7fcfccfd8"
+        },
+        {
+          "relative_path": "raw/DJI_0329.DNG",
+          "kind": "raw",
+          "size_bytes": 40950602,
+          "sha256": "eba24df12e06959341500fcb565f7ca88d9f021061f9f91fbdac6a1575f16903"
+        },
+        {
+          "relative_path": "raw/DJI_0330.DNG",
+          "kind": "raw",
+          "size_bytes": 40951492,
+          "sha256": "3895a4d9a73531dfefe2ccdf7006545dbf3edc1193c01a917b808da53b796937"
+        },
+        {
+          "relative_path": "raw/DJI_0331.DNG",
+          "kind": "raw",
+          "size_bytes": 40961090,
+          "sha256": "d5b24bcab9a9db12f6d523c45745846982ef7c0d51c767edadd0e12947f56664"
+        },
+        {
+          "relative_path": "raw/DJI_0332.DNG",
+          "kind": "raw",
+          "size_bytes": 40965647,
+          "sha256": "cbab8dbb1c401191250044889e8cf75ad2f9e9b8950e0a6ff46512149343505a"
+        },
+        {
+          "relative_path": "raw/DJI_0333.DNG",
+          "kind": "raw",
+          "size_bytes": 40963600,
+          "sha256": "a4dd09439d8167edbda4b7a9778a9a497dcd013482fd8e34f7490fcb92a82e8d"
+        },
+        {
+          "relative_path": "raw/DJI_0334.DNG",
+          "kind": "raw",
+          "size_bytes": 40950527,
+          "sha256": "1f6fdb5f7f989b0d54677c1bfccb0e584603e8d638c6732049a3f9afebd61799"
+        },
+        {
+          "relative_path": "raw/DJI_0335.DNG",
+          "kind": "raw",
+          "size_bytes": 40929280,
+          "sha256": "f0d9ceb65900f84fc7195eb3ac44d4ead51627d573466ce3cb1f0db25338df40"
+        },
+        {
+          "relative_path": "raw/DJI_0336.DNG",
+          "kind": "raw",
+          "size_bytes": 40932559,
+          "sha256": "b65457ccb056bb5165186a71fa93535b00b66e0d815c17034d553d6800f7ad51"
+        },
+        {
+          "relative_path": "raw/DJI_0337.DNG",
+          "kind": "raw",
+          "size_bytes": 40939141,
+          "sha256": "604102908ef974f592af0ae24fa6864b2a443ea80ad34c0ab73309f96bcc9c5a"
+        },
+        {
+          "relative_path": "raw/DJI_0338.DNG",
+          "kind": "raw",
+          "size_bytes": 40948379,
+          "sha256": "3b56a64cadd62d09cafd6a91f8b540555d549b5b5c7a97c032144ff93b47d32e"
+        },
+        {
+          "relative_path": "raw/DJI_0339.DNG",
+          "kind": "raw",
+          "size_bytes": 40936317,
+          "sha256": "c608c8c919480405940a8cdf43b60c56fd3185cfa46c8087d9e2ef94090bbf94"
+        },
+        {
+          "relative_path": "raw/DJI_0340.DNG",
+          "kind": "raw",
+          "size_bytes": 40928540,
+          "sha256": "d5946ec05c005d51216ffffcd08c948aac75f1eb6a49535bc98b1f4a7f81b341"
+        },
+        {
+          "relative_path": "raw/DJI_0341.DNG",
+          "kind": "raw",
+          "size_bytes": 40928081,
+          "sha256": "6476a536233e4a0f6791d28fd6f92b61692543d0a9a60ebc4091f1d3a36e5075"
+        },
+        {
+          "relative_path": "raw/DJI_0342.DNG",
+          "kind": "raw",
+          "size_bytes": 40937077,
+          "sha256": "8df6633a191ad654fac6a0b0258f28e7d7737aa144c03e0daa983de2f0e35416"
+        },
+        {
+          "relative_path": "raw/DJI_0343.DNG",
+          "kind": "raw",
+          "size_bytes": 40953412,
+          "sha256": "027f475ba2f01589e4d719c20c691371a26e33c006585025342aea397390c35b"
+        },
+        {
+          "relative_path": "raw/DJI_0344.DNG",
+          "kind": "raw",
+          "size_bytes": 40950629,
+          "sha256": "ce31b95a2e3ba1e332aa35bc728c083d2a6591a4b11131aea903db732a70b1a9"
+        },
+        {
+          "relative_path": "raw/DJI_0345.DNG",
+          "kind": "raw",
+          "size_bytes": 40947495,
+          "sha256": "21f5960ad998ea5931000008aeaafcea0762da1c9340551f5a227ace7e791797"
+        },
+        {
+          "relative_path": "raw/DJI_0346.DNG",
+          "kind": "raw",
+          "size_bytes": 40944297,
+          "sha256": "ef70a404bad98e87f8e4e5346263376338bc6591effac9c905a860de0d86fee7"
+        },
+        {
+          "relative_path": "raw/DJI_0347.DNG",
+          "kind": "raw",
+          "size_bytes": 40954804,
+          "sha256": "8c53d8e203f5518840d155b1bafa174367cfdade7d8d6983714f9c0b4d7871c6"
+        },
+        {
+          "relative_path": "raw/DJI_0348.DNG",
+          "kind": "raw",
+          "size_bytes": 40976864,
+          "sha256": "310db5a0bb491bcac8ce8fd5efe2e518e33849ca2f7c13c9e26260ef04302c0b"
+        },
+        {
+          "relative_path": "raw/DJI_0349.DNG",
+          "kind": "raw",
+          "size_bytes": 40979732,
+          "sha256": "ffd6c0b9a3c85ce256b62519ee45dd903c0db54bfe954192ef9e00c226a24ff1"
+        },
+        {
+          "relative_path": "raw/DJI_0350.DNG",
+          "kind": "raw",
+          "size_bytes": 40976032,
+          "sha256": "4a6c7d4c84a3490d18d3a6169481eb794f3d7c3421207cfea1aad6f27c43b043"
+        },
+        {
+          "relative_path": "raw/DJI_0351.DNG",
+          "kind": "raw",
+          "size_bytes": 40960449,
+          "sha256": "67d38b06a64429cc861ff21bfcfc781317b25888c780d1ef7d1a445f061ef823"
+        },
+        {
+          "relative_path": "raw/DJI_0352.DNG",
+          "kind": "raw",
+          "size_bytes": 40970570,
+          "sha256": "5808114452518c0d784b6321e828ec5cdbdbfc9a0029a089c8f63eb267918f00"
+        },
+        {
+          "relative_path": "raw/DJI_0353.DNG",
+          "kind": "raw",
+          "size_bytes": 40969024,
+          "sha256": "61e10d75b2cd58d18a1ecd4bc46bfda0430afa1caa0d0db1c414d453eeeff2e9"
+        },
+        {
+          "relative_path": "raw/DJI_0354.DNG",
+          "kind": "raw",
+          "size_bytes": 40962051,
+          "sha256": "f79b68d94bd8c278ff09a9d51eae8cc6ec83814076a5b79e008f13809ac80050"
+        },
+        {
+          "relative_path": "raw/DJI_0355.DNG",
+          "kind": "raw",
+          "size_bytes": 40970611,
+          "sha256": "354a1b3e6bf5ba101bed006ea03aa4c04939ae6cff42ab6999633096bf9b60cf"
+        },
+        {
+          "relative_path": "raw/DJI_0356.DNG",
+          "kind": "raw",
+          "size_bytes": 40966733,
+          "sha256": "a5dc39fa5d2b77405a2e366a60864300f4d96f92732b48cca9c5144ef00fef7e"
+        },
+        {
+          "relative_path": "raw/DJI_0357.DNG",
+          "kind": "raw",
+          "size_bytes": 40957506,
+          "sha256": "9a8a9578ce1aaf473e9e4c09c82d01e675cf61ee7a2320b568bb8008f15a6dd3"
+        },
+        {
+          "relative_path": "raw/DJI_0358.DNG",
+          "kind": "raw",
+          "size_bytes": 40958847,
+          "sha256": "a53b80ae004c5d4ec2bc0005d6c49607cc665ac44184ffdb62a550c09893ba9b"
+        },
+        {
+          "relative_path": "raw/DJI_0359.DNG",
+          "kind": "raw",
+          "size_bytes": 40972971,
+          "sha256": "847d790fae7c0d2659e8ad65489a2a1929dee625545b1bd37fba3c8c05b819ab"
+        },
+        {
+          "relative_path": "raw/DJI_0360.DNG",
+          "kind": "raw",
+          "size_bytes": 40972582,
+          "sha256": "7594f53fc466e30b979e00666405d2ca1d356ba15e2e991cd6d587075494db9d"
+        },
+        {
+          "relative_path": "raw/DJI_0361.DNG",
+          "kind": "raw",
+          "size_bytes": 40967231,
+          "sha256": "77300423f7a1ee1d94706476f46dfc406c96786365d8a82b0da65be5901c0b2d"
+        },
+        {
+          "relative_path": "raw/DJI_0362.DNG",
+          "kind": "raw",
+          "size_bytes": 40948726,
+          "sha256": "ee218d623f51e428b42cb58b80472619ba2cacaa5228fe5e8f24f895ad08a604"
+        },
+        {
+          "relative_path": "raw/DJI_0363.DNG",
+          "kind": "raw",
+          "size_bytes": 40947878,
+          "sha256": "e1dab51cc6f0ffa683832ce1ea41036a784b14877ff5005929e19da587c31438"
+        },
+        {
+          "relative_path": "raw/DJI_0364.DNG",
+          "kind": "raw",
+          "size_bytes": 40960075,
+          "sha256": "47c9d89439c103e6b3657fb4c9a631646408970eefb60c5079b1a4ab72b21d2c"
+        },
+        {
+          "relative_path": "raw/DJI_0365.DNG",
+          "kind": "raw",
+          "size_bytes": 40967126,
+          "sha256": "824994774f8f26fe5c8290ec196ef6063bc94c1987df8a6fe15d396295ad7a02"
+        },
+        {
+          "relative_path": "raw/DJI_0366.DNG",
+          "kind": "raw",
+          "size_bytes": 40963403,
+          "sha256": "68397615a81ebea5eb3b18322f8737c7879fd75f8a048c0af8d16f508dece772"
+        },
+        {
+          "relative_path": "raw/DJI_0367.DNG",
+          "kind": "raw",
+          "size_bytes": 40959848,
+          "sha256": "b911d79e84cbe7d8b6593cc758aa4239cfef8337be3d72ecf7d98c7135d5af35"
+        },
+        {
+          "relative_path": "raw/DJI_0368.DNG",
+          "kind": "raw",
+          "size_bytes": 40947715,
+          "sha256": "a0c90925331db249e822597c1514c585662857c8c50721600c83a72a66f08340"
+        },
+        {
+          "relative_path": "raw/DJI_0369.DNG",
+          "kind": "raw",
+          "size_bytes": 40953835,
+          "sha256": "42e68574182a05ef77ec0a337be5730e241ca2fcbe6427c840c6f8790a3af669"
+        },
+        {
+          "relative_path": "raw/DJI_0370.DNG",
+          "kind": "raw",
+          "size_bytes": 40971154,
+          "sha256": "fc1a9810fc72b66fb8fec5f17910802f7d653734632e69527de57ea660f72fa1"
+        },
+        {
+          "relative_path": "raw/DJI_0371.DNG",
+          "kind": "raw",
+          "size_bytes": 40965693,
+          "sha256": "1cfea292d768189e186b8f8ecb4229d83ed24c31385b3576f0c1bcfbcc8507f3"
+        },
+        {
+          "relative_path": "raw/DJI_0372.DNG",
+          "kind": "raw",
+          "size_bytes": 40956293,
+          "sha256": "d9a495ed0a32d640169299ebbf09e977eb6645cfbb6bdb157d12d00dd5520990"
+        },
+        {
+          "relative_path": "raw/DJI_0373.DNG",
+          "kind": "raw",
+          "size_bytes": 40952248,
+          "sha256": "288d0f538b0ea36d016e9eaa05b3af839759c04b49522a0346b595e7c6f166b0"
+        },
+        {
+          "relative_path": "raw/DJI_0374.DNG",
+          "kind": "raw",
+          "size_bytes": 40961015,
+          "sha256": "a80c7bffb7ce5dff6311846030a14059d26179b5ffe7b022aaabb278009e98a8"
+        },
+        {
+          "relative_path": "raw/DJI_0375.DNG",
+          "kind": "raw",
+          "size_bytes": 40977858,
+          "sha256": "8545397abc1d86f69de37972bd296c2d672df6ce06f0eee5d2f5aa233442cd99"
+        },
+        {
+          "relative_path": "raw/DJI_0376.DNG",
+          "kind": "raw",
+          "size_bytes": 40985766,
+          "sha256": "90ea9aa0a6872cc5f6c29855961e041244f114cf8523e74147b0583e6d4b7071"
+        },
+        {
+          "relative_path": "raw/DJI_0377.DNG",
+          "kind": "raw",
+          "size_bytes": 40982461,
+          "sha256": "31a48d75dca76ca09714dee964620e737540739a1d0cb8ff8f86ddd770b9542f"
+        },
+        {
+          "relative_path": "raw/DJI_0378.DNG",
+          "kind": "raw",
+          "size_bytes": 40965001,
+          "sha256": "2389e3d76ea6d813851c2dca7dad8fda6b4d87b4b4a33074dabdf38cca4a5ca1"
+        },
+        {
+          "relative_path": "raw/DJI_0379.DNG",
+          "kind": "raw",
+          "size_bytes": 40962297,
+          "sha256": "178550dac825ec0bb1e03884a994f97adb1315595a40eff4504733ce7b6d140f"
+        },
+        {
+          "relative_path": "raw/DJI_0380.DNG",
+          "kind": "raw",
+          "size_bytes": 40963596,
+          "sha256": "23c3ad5d0e213bc98785acc241f502cd79950cb951681cb4758466bb4ec7f630"
+        },
+        {
+          "relative_path": "raw/DJI_0381.DNG",
+          "kind": "raw",
+          "size_bytes": 40968637,
+          "sha256": "abcc1a4bd3d47792fcf915bb0c2068afc96526cdad81f7552dbbca59f07cdb25"
+        },
+        {
+          "relative_path": "raw/DJI_0382.DNG",
+          "kind": "raw",
+          "size_bytes": 40970443,
+          "sha256": "2eb3902660b254e60caaf9b25850f99921b482295d5efa3d7c1b1a2804f44ef0"
+        },
+        {
+          "relative_path": "raw/DJI_0383.DNG",
+          "kind": "raw",
+          "size_bytes": 40975054,
+          "sha256": "380c4fdeb98e58735db295448c02cbb4f689cbce4000ead7ab6232b41622accf"
+        },
+        {
+          "relative_path": "raw/DJI_0384.DNG",
+          "kind": "raw",
+          "size_bytes": 40981370,
+          "sha256": "4eb5f53ae6d6703698cb8ba57927577582ce962f792f4e04529b259e2faf704a"
+        },
+        {
+          "relative_path": "raw/DJI_0385.DNG",
+          "kind": "raw",
+          "size_bytes": 40970177,
+          "sha256": "01ff26d9cb38ae39f95c08f0808a204f76bb468dfa6ff4e2090308898f0aec1a"
+        },
+        {
+          "relative_path": "raw/DJI_0386.DNG",
+          "kind": "raw",
+          "size_bytes": 40957798,
+          "sha256": "a4dbc08d349a912ee11ee3da4322f5376412316c7d39ff882662cf3935e4342f"
+        },
+        {
+          "relative_path": "raw/DJI_0387.DNG",
+          "kind": "raw",
+          "size_bytes": 40941740,
+          "sha256": "fdc98efd298d285dba8773fc523f047121b24c5995335f1b305ad4736c4b7753"
+        },
+        {
+          "relative_path": "raw/DJI_0388.DNG",
+          "kind": "raw",
+          "size_bytes": 40940900,
+          "sha256": "073bc91a6aa76585f4fc6a77aa9e31506b919697d060d2b1cbe1fb145cfc9112"
+        },
+        {
+          "relative_path": "raw/DJI_0389.DNG",
+          "kind": "raw",
+          "size_bytes": 40945220,
+          "sha256": "60990491a6e40dbcc8911b4be80cf7b4fbf7e7f327bab3e6d09b8e011b6cc66c"
+        },
+        {
+          "relative_path": "raw/DJI_0390.DNG",
+          "kind": "raw",
+          "size_bytes": 40941656,
+          "sha256": "8bd224f45bc4165a8096bdb222f1844b2ab1a82536c6f735442c6e10f47e9bb6"
+        },
+        {
+          "relative_path": "raw/DJI_0391.DNG",
+          "kind": "raw",
+          "size_bytes": 40913240,
+          "sha256": "bcac581a6b4ccae92049ae472077ea6d7d124dbb27fbf9e53ada09ef4f257e32"
+        },
+        {
+          "relative_path": "processed/Area_C/dsm.tif",
+          "kind": "processed",
+          "size_bytes": 320370224,
+          "sha256": "2e17bce38e3ac2307562d248ebc2e5a19296f28c538ff103c9e0cb3a306bd985"
+        },
+        {
+          "relative_path": "processed/Area_C/model.glb",
+          "kind": "processed",
+          "size_bytes": 212550288,
+          "sha256": "1f8387344c8548e7b958920ba478bc005bff8c472464e4889f870ae1f729d24d"
+        },
+        {
+          "relative_path": "processed/Area_C/orthophoto.tif",
+          "kind": "processed",
+          "size_bytes": 1890482211,
+          "sha256": "e71f2152c0e5ba6ec77506e088c44ce7940f36eca5e4cc78ac1904089443a597"
+        },
+        {
+          "relative_path": "processed/Area_C/pointcloud.laz",
+          "kind": "processed",
+          "size_bytes": 235897276,
+          "sha256": "9959d2bdba4c901e847e178c776666fad85aaef36eacb586168599979cfea619"
+        },
+        {
+          "relative_path": "processed/Area_C/report.pdf",
+          "kind": "processed",
+          "size_bytes": 16704754,
+          "sha256": "a02ae4bd40087544e8eb9a6c8577531adbb2a83d19bb3a4cb7242871aa8d9b3b"
+        },
+        {
+          "relative_path": "processed/Area_C/shots.geojson",
+          "kind": "processed",
+          "size_bytes": 114248,
+          "sha256": "5f1c449d8e15cfabf2cc9d2f3a9b8ae76830a456a3b4bf6c65c5d6bd4512acea"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "name": "Area D",
+      "bounds": {
+        "west": 73.76322965098157,
+        "south": 20.013749115488107,
+        "east": 73.76426709454425,
+        "north": 20.01458595144932
+      },
+      "source_crs": "EPSG:32643",
+      "assets": [
+        {
+          "relative_path": "raw/DJI_0414.DNG",
+          "kind": "raw",
+          "size_bytes": 40902754,
+          "sha256": "b122a0c7e1fc49ee8d1c1986d9649e06233e10cab33e96f852bba7ed76cd6772"
+        },
+        {
+          "relative_path": "raw/DJI_0415.DNG",
+          "kind": "raw",
+          "size_bytes": 40889064,
+          "sha256": "98e50375eae379ed190c7febb0cad9c1688b91ebdcad475e9ed809e7cbde5791"
+        },
+        {
+          "relative_path": "raw/DJI_0416.DNG",
+          "kind": "raw",
+          "size_bytes": 40887971,
+          "sha256": "64a3fafcab4d46d109de501273a21e6e62def19339d43fc255b583860befecb7"
+        },
+        {
+          "relative_path": "raw/DJI_0417.DNG",
+          "kind": "raw",
+          "size_bytes": 40866705,
+          "sha256": "717b06715ce0704e10a6027f3b4456a6fff36f69e5565a8e3c0d0a9454061fec"
+        },
+        {
+          "relative_path": "raw/DJI_0418.DNG",
+          "kind": "raw",
+          "size_bytes": 40874924,
+          "sha256": "2470b9ca76a4bdeab2a756d8c23016d013ba2396c3fa221e16a48f659c6070e3"
+        },
+        {
+          "relative_path": "raw/DJI_0419.DNG",
+          "kind": "raw",
+          "size_bytes": 40891097,
+          "sha256": "ecdc9391033a8ebedc71cacfd762d90c9e47595cdf1ecfce7bc79cc317a8b620"
+        },
+        {
+          "relative_path": "raw/DJI_0420.DNG",
+          "kind": "raw",
+          "size_bytes": 40885342,
+          "sha256": "9e448d870edd8644b1feada4b2e363cdab1f2e3fac1e581b65b990e2c77ce367"
+        },
+        {
+          "relative_path": "raw/DJI_0421.DNG",
+          "kind": "raw",
+          "size_bytes": 40882340,
+          "sha256": "d21df14f6fd24719ea093d37b16c3861dd005fa14dabf0a85654b57034a2f179"
+        },
+        {
+          "relative_path": "processed/Area_D/dsm.tif",
+          "kind": "processed",
+          "size_bytes": 88833914,
+          "sha256": "c4061e247e5aef4612f5294a0aa7932100e476e1c9b070a21878e411929256df"
+        },
+        {
+          "relative_path": "processed/Area_D/model.glb",
+          "kind": "processed",
+          "size_bytes": 18153348,
+          "sha256": "a5cadcf030651f4442239bfd254952536e630a71dde67e1e2630b1cc9c9ce521"
+        },
+        {
+          "relative_path": "processed/Area_D/orthophoto.tif",
+          "kind": "processed",
+          "size_bytes": 539390821,
+          "sha256": "0a400943faf38f8f67367fea46da2b5b5cab988f84a22c12aeecb8156c0fee92"
+        },
+        {
+          "relative_path": "processed/Area_D/pointcloud.laz",
+          "kind": "processed",
+          "size_bytes": 8155158,
+          "sha256": "7d59201fad95dbc767480a98b434962df57f21afe577dffefbf4592a0db4219b"
+        },
+        {
+          "relative_path": "processed/Area_D/report.pdf",
+          "kind": "processed",
+          "size_bytes": 8835804,
+          "sha256": "73896382a06155470484d968d460cf7c1537399f969a304414cb95cbea14977a"
+        },
+        {
+          "relative_path": "processed/Area_D/shots.geojson",
+          "kind": "processed",
+          "size_bytes": 3725,
+          "sha256": "706389707e9ca8d0a3b4f0b17892098e5372f1aa796264337810fb9a17a9a37b"
+        }
+      ]
+    }
+  ]
+}

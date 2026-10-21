@@ -1,0 +1,54 @@
+name: mosquito-storage-pilot
+services:
+  database:
+    image: postgis/postgis:17-3.5
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: mosquito
+      POSTGRES_USER: mosquito_admin
+      POSTGRES_PASSWORD: ${DB_ADMIN_PASSWORD:?required}
+      APP_DB_PASSWORD: ${APP_DB_PASSWORD:?required}
+    volumes:
+      - ${DATABASE_DIR:?required}:/var/lib/postgresql/data
+      - ./init-db.sh:/docker-entrypoint-initdb.d/10-init.sh:ro
+      - ../../backend/schema.sql:/bootstrap/schema.sql:ro
+      - ../../backend/migrations:/bootstrap/migrations:ro
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U mosquito_admin -d mosquito']
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    mem_limit: 1g
+    cpus: 2
+    logging: &logging
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+  api:
+    build: ../../backend
+    restart: unless-stopped
+    depends_on:
+      database:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://mosquito_api:${APP_DB_PASSWORD:?required}@database:5432/mosquito
+      OPERATOR_TOKEN: ${OPERATOR_TOKEN:?required}
+      EVIDENCE_ROOT: /evidence
+    ports:
+      - '127.0.0.1:8091:8080'
+    volumes:
+      - ${EVIDENCE_DIR:?required}:/evidence
+    read_only: true
+    tmpfs:
+      - /tmp:size=32m
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=4)"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    mem_limit: 512m
+    cpus: 2
+    logging: *logging

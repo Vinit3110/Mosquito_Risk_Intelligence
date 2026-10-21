@@ -1,0 +1,90 @@
+[
+  {
+    "id": "area-a",
+    "name": "Area A",
+    "date": "2026-08-19",
+    "sourceCrs": "EPSG:32643",
+    "status": "ready",
+    "bounds": {
+      "west": 73.76142051352713,
+      "south": 20.016772772343163,
+      "east": 73.76536628864642,
+      "north": 20.01747364308115
+    },
+    "imagery": {
+      "kind": "xyz",
+      "urlTemplate": "/drone/area-a/{z}/{x}/{y}.png",
+      "minZoom": 14,
+      "maxZoom": 22,
+      "opacity": 1,
+      "tileSize": 256
+    },
+    "message": "WebODM orthophoto \u00b7 GPS georeferenced; positional accuracy not independently verified"
+  },
+  {
+    "id": "area-b",
+    "name": "Area B",
+    "date": "2026-08-19",
+    "sourceCrs": "EPSG:32643",
+    "status": "ready",
+    "bounds": {
+      "west": 73.76366402025909,
+      "south": 20.016355570474932,
+      "east": 73.76461575668878,
+      "north": 20.016838669794794
+    },
+    "imagery": {
+      "kind": "xyz",
+      "urlTemplate": "/drone/area-b/{z}/{x}/{y}.png",
+      "minZoom": 14,
+      "maxZoom": 22,
+      "opacity": 1,
+      "tileSize": 256
+    },
+    "message": "WebODM orthophoto \u00b7 GPS georeferenced; positional accuracy not independently verified"
+  },
+  {
+    "id": "area-c",
+    "name": "Area C",
+    "date": "2026-08-19",
+    "sourceCrs": "EPSG:32643",
+    "status": "ready",
+    "bounds": {
+      "west": 73.76186150150183,
+      "south": 20.01576198732812,
+      "east": 73.76321344656704,
+      "north": 20.017578247367076
+    },
+    "imagery": {
+      "kind": "xyz",
+      "urlTemplate": "/drone/area-c/{z}/{x}/{y}.png",
+      "minZoom": 14,
+      "maxZoom": 22,
+      "opacity": 1,
+      "tileSize": 256
+    },
+    "message": "WebODM orthophoto \u00b7 GPS georeferenced; positional accuracy not independently verified"
+  },
+  {
+    "id": "area-d",
+    "name": "Area D",
+    "date": "2026-08-19",
+    "sourceCrs": "EPSG:32643",
+    "status": "ready",
+    "bounds": {
+      "west": 73.76322965098157,
+      "south": 20.013749115488107,
+      "east": 73.76426709454425,
+      "north": 20.01458595144932
+    },
+    "imagery": {
+      "kind": "xyz",
+      "urlTemplate": "/drone/area-d/{z}/{x}/{y}.png",
+      "minZoom": 14,
+      "maxZoom": 22,
+      "opacity": 1,
+      "tileSize": 256
+    },
+    "message": "WebODM orthophoto \u00b7 GPS georeferenced; positional accuracy not independently verified"
+  }
+]

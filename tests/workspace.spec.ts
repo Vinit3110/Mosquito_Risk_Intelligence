@@ -1,0 +1,71 @@
+import { test, expect } from '@playwright/test';
+
+test('missing configuration is honest, records and routes work', async ({ page }) => {
+  await page.goto('/sites');
+  await expect(page.getByText('Google Maps configuration required')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Zoom in', exact: true })).toBeDisabled();
+  await page.getByRole('button', { name: 'Sites (6)' }).click();
+  await expect(page.getByRole('list', { name: 'Demo sites' })).toBeVisible();
+  await page.getByRole('listitem').filter({ hasText: 'NSK-PAN-018' }).click();
+  await expect(page.getByRole('complementary', { name: 'Details for NSK-PAN-018' })).toBeVisible();
+  await expect(page.getByText('Mosquito classification: Not recorded')).toBeVisible();
+  await expect(page.getByRole('listitem').filter({ hasText: 'NSK-PAN-018' })).toHaveAttribute('aria-pressed', 'true');
+  await page.getByRole('button', { name: 'Close site details' }).click();
+  await page.getByRole('button', { name: 'Close site list', exact: true }).click();
+  await expect(page.getByRole('list', { name: 'Demo sites' })).toHaveCount(0);
+  await page.getByRole('link', { name: 'Overview' }).click();
+  await expect(page).toHaveURL('http://127.0.0.1:5187/');
+  await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+});
+test('site and location search plus no-results state', async ({ page }) => {
+  await page.goto('/sites');
+  const input = page.getByPlaceholder('Search locations, sites or wards…');
+  await input.fill('NSK-SAT');
+  await page.getByRole('button', { name: /NSK-SAT-011/ }).click();
+  await expect(page).toHaveURL(/site=NSK-SAT-011/);
+  await expect(page.getByRole('complementary', { name: 'Details for NSK-SAT-011' })).toBeVisible();
+  await input.fill('Gangapur');
+  await page.getByRole('button', { name: 'Gangapur Road Local destination · approximate centre' }).click();
+  await expect(input).toHaveValue('');
+  await input.fill('unmatched-test-value');
+  await expect(page.getByText('No matching sites, local destinations or supplied wards.')).toBeVisible();
+  await input.press('Escape'); await expect(input).toHaveValue('');
+});
+test('layers toggle independently and supplied survey imagery is ready', async ({ page }) => {
+  await page.goto('/sites');
+  await page.getByRole('button', { name: 'Layers', exact: true }).click();
+  await page.getByLabel('Satellite', { exact: true }).check();
+  await expect(page.getByText('Nashik · Satellite', { exact: true })).toBeVisible();
+  await page.getByLabel('Streets', { exact: true }).check();
+  const hotspots = page.getByRole('checkbox', { name: /Hotspots/ });
+  const boxes = page.getByRole('checkbox', { name: /LunchBoxes/ });
+  const wards = page.getByRole('checkbox', { name: /Ward boundaries/ });
+  await hotspots.uncheck(); await boxes.check(); await wards.check();
+  await expect(hotspots).not.toBeChecked(); await expect(boxes).toBeChecked(); await expect(wards).toBeChecked();
+  await expect(page.getByText('No LunchBox locations supplied')).toBeVisible();
+  await expect(page.getByText('1 supplied ward · manually traced; municipal verification pending')).toBeVisible();
+  for (const area of ['A', 'B', 'C', 'D']) await page.getByRole('checkbox', { name: `Show Area ${area} survey` }).check();
+  await page.getByRole('checkbox', { name: 'Show Area B survey' }).uncheck();
+  await expect(page.getByRole('checkbox', { name: 'Show Area A survey' })).toBeChecked();
+  await expect(page.getByRole('checkbox', { name: 'Show Area B survey' })).not.toBeChecked();
+  await page.getByRole('button', { name: /Area A — 19 Aug 2026/ }).click();
+  await expect(page.getByRole('complementary', { name: 'Selected survey' })).toContainText('Imagery enabled');
+});
+test('existing status, priority and area filters remain available', async ({ page }) => {
+  await page.goto('/sites');
+  await page.getByLabel('Status', { exact: true }).selectOption('Verified');
+  await expect(page.getByText('2/6 sites', { exact: true })).toBeVisible();
+  await page.getByRole('button', { name: 'More filters' }).click();
+  await page.getByLabel('Priority', { exact: true }).selectOption('Low');
+  await expect(page.getByText('0/6 sites', { exact: true })).toBeVisible();
+  await page.getByRole('button', { name: 'Clear', exact: true }).click();
+  await expect(page.getByText('6/6 sites', { exact: true })).toBeVisible();
+});
+for (const width of [1440, 390]) test(`workspace is usable at ${width}px`, async ({ page }) => {
+  await page.setViewportSize({ width, height: 900 }); await page.goto('/sites');
+  await expect(page.getByRole('button', { name: 'Sites (6)' })).toBeInViewport();
+  await page.getByRole('button', { name: 'Layers', exact: true }).click();
+  await expect(page.getByRole('radio', { name: 'Satellite' })).toBeInViewport();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+  await page.screenshot({ path: `test-results/workspace-${width}.png`, fullPage: true });
+});

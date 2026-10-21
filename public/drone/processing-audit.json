@@ -1,0 +1,174 @@
+[
+  {
+    "id": "area-a",
+    "sourceFile": "Drone_First_Flight/data/photogrammetry/Area_A/orthophoto.tif",
+    "sourceBytes": 2110727540,
+    "dimensions": [
+      41225,
+      7454
+    ],
+    "crs": "EPSG:32643",
+    "sourceBounds": [
+      370444.6122139786,
+      2213816.7570172017,
+      370856.8622090281,
+      2213891.2875755313
+    ],
+    "sourceTransform": [
+      0.009999999879915018,
+      0.0,
+      370444.6122139786,
+      0.0,
+      -0.009998733341768344,
+      2213891.2875755313,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "nativePixelSizeM": [
+      0.009999999879915018,
+      0.009998733341768344
+    ],
+    "captureDate": "2026-08-19",
+    "captureTimeAsReported": "09:04:05",
+    "dateSource": "Drone_First_Flight/data/photogrammetry/Area_A/report.pdf",
+    "tileCount": 663,
+    "tileBytes": 66014975,
+    "visiblePixelsAtMaxZoom": 20221460,
+    "webMercatorPixelSizeM": 0.03732276771737122,
+    "approximateGroundPixelSizeM": 0.035068112902452236,
+    "rgbConversion": "UInt16 / 257 -> UInt8, no per-area contrast stretch",
+    "alphaConversion": "preserved source 0..255 alpha; explicit GDAL SRC/DST_ALPHA_MAX=255",
+    "gdalVersion": "3.12.2",
+    "rasterioVersion": "1.5.2"
+  },
+  {
+    "id": "area-b",
+    "sourceFile": "Drone_First_Flight/data/photogrammetry/Area_B/orthophoto.tif",
+    "sourceBytes": 338939382,
+    "dimensions": [
+      9918,
+      5274
+    ],
+    "crs": "EPSG:32643",
+    "sourceBounds": [
+      370678.80899000005,
+      2213768.8469249415,
+      370777.98899000004,
+      2213821.5869230586
+    ],
+    "sourceTransform": [
+      0.009999999999999296,
+      0.0,
+      370678.80899000005,
+      0.0,
+      -0.009999999642982418,
+      2213821.5869230586,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "nativePixelSizeM": [
+      0.009999999999999296,
+      0.009999999642982418
+    ],
+    "captureDate": "2026-08-19",
+    "captureTimeAsReported": "11:03:38",
+    "dateSource": "Drone_First_Flight/data/photogrammetry/Area_B/report.pdf",
+    "tileCount": 136,
+    "tileBytes": 10121484,
+    "visiblePixelsAtMaxZoom": 3316513,
+    "webMercatorPixelSizeM": 0.03732276771737122,
+    "approximateGroundPixelSizeM": 0.03506823020620384,
+    "rgbConversion": "UInt16 / 257 -> UInt8, no per-area contrast stretch",
+    "alphaConversion": "preserved source 0..255 alpha; explicit GDAL SRC/DST_ALPHA_MAX=255",
+    "gdalVersion": "3.12.2",
+    "rasterioVersion": "1.5.2"
+  },
+  {
+    "id": "area-c",
+    "sourceFile": "Drone_First_Flight/data/photogrammetry/Area_C/orthophoto.tif",
+    "sourceBytes": 1890482211,
+    "dimensions": [
+      13996,
+      20000
+    ],
+    "crs": "EPSG:32643",
+    "sourceBounds": [
+      370490.8456168978,
+      2213704.534982,
+      370630.80561404186,
+      2213904.534982
+    ],
+    "sourceTransform": [
+      0.009999999795946133,
+      0.0,
+      370490.8456168978,
+      0.0,
+      -0.01,
+      2213904.534982,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "nativePixelSizeM": [
+      0.009999999795946133,
+      0.01
+    ],
+    "captureDate": "2026-08-19",
+    "captureTimeAsReported": "11:18:07",
+    "dateSource": "Drone_First_Flight/data/photogrammetry/Area_C/report.pdf",
+    "tileCount": 588,
+    "tileBytes": 56664274,
+    "visiblePixelsAtMaxZoom": 18622899,
+    "webMercatorPixelSizeM": 0.03732276771737122,
+    "approximateGroundPixelSizeM": 0.035068213929913834,
+    "rgbConversion": "UInt16 / 257 -> UInt8, no per-area contrast stretch",
+    "alphaConversion": "preserved source 0..255 alpha; explicit GDAL SRC/DST_ALPHA_MAX=255",
+    "gdalVersion": "3.12.2",
+    "rasterioVersion": "1.5.2"
+  },
+  {
+    "id": "area-d",
+    "sourceFile": "Drone_First_Flight/data/photogrammetry/Area_D/orthophoto.tif",
+    "sourceBytes": 539390821,
+    "dimensions": [
+      9618,
+      8189
+    ],
+    "crs": "EPSG:32643",
+    "sourceBounds": [
+      370631.5254664295,
+      2213480.6978983874,
+      370739.3849337955,
+      2213572.527361008
+    ],
+    "sourceTransform": [
+      0.011214334307133688,
+      0.0,
+      370631.5254664295,
+      0.0,
+      -0.011213757799539589,
+      2213572.527361008,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "nativePixelSizeM": [
+      0.011214334307133688,
+      0.011213757799539589
+    ],
+    "captureDate": "2026-08-19",
+    "captureTimeAsReported": "13:09:51",
+    "dateSource": "Drone_First_Flight/data/photogrammetry/Area_D/report.pdf",
+    "tileCount": 243,
+    "tileBytes": 18734651,
+    "visiblePixelsAtMaxZoom": 7227733,
+    "webMercatorPixelSizeM": 0.03732276771737122,
+    "approximateGroundPixelSizeM": 0.03506877190204432,
+    "rgbConversion": "UInt16 / 257 -> UInt8, no per-area contrast stretch",
+    "alphaConversion": "preserved source 0..255 alpha; explicit GDAL SRC/DST_ALPHA_MAX=255",
+    "gdalVersion": "3.12.2",
+    "rasterioVersion": "1.5.2"
+  }
+]

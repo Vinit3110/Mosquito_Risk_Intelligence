@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:ex="http://earth.google.com/kml/ext">
+<Document id="1YU1MC-3hxezEUKHlAGbhdDWUEd_9HD6l">
+	<ex:extension>base64;Co4BCoEBCn8KAggBEnkKdwokCiAKAwjQDxoHCNLtZRD_ASEAAAAAAADwPykAAAAAAAAAABgAEg8KCAitgO8HEP8BEKAfGAAaGgoHCP___wcQQBIICK2A7wcQ_wEYoB8gACgAIgkIARIFCP___wcqFwgBEggI____BxD_ARkAAAAAAADwPyAAEgQIARAAGgIIAA</ex:extension>
+	<name>Ward_No_7</name>
+	<gx:CascadingStyle kml:id="__managed_style_00912A71894260B8DE56_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_00912A71894260B8DE56_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2.66667</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_00912A71894260B8DE56">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_00912A71894260B8DE56_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_00912A71894260B8DE56_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0B25A8B3F640C2A59DEE">
+		<name>Ward No.7</name>
+		<LookAt>
+			<longitude>73.76081986793415</longitude>
+			<latitude>20.02103766411451</latitude>
+			<altitude>589.8945772240246</altitude>
+			<heading>14.7966017857993</heading>
+			<tilt>41.51580764140907</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>951.0631224009558</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_00912A71894260B8DE56</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.78990058203614,20.00905843935412,0 73.79001243571838,20.00992295240485,0 73.78863018607855,20.01060214872485,0 73.78683969205011,20.01044077678704,0 73.78492940907182,20.01004271806272,0 73.7828878273358,20.00966574578768,0 73.78161306214071,20.00943737594699,0 73.7802586340057,20.00942339411565,0 73.7780873877126,20.00952902280444,0 73.77658973847561,20.00976603658596,0 73.77561402906962,20.01009895411743,0 73.77472197745595,20.0110819263492,0 73.77289672628822,20.01360939134971,0 73.77099424331135,20.01606250104408,0 73.7706156009174,20.01684302451968,0 73.77039129028709,20.01767658553649,0 73.76970912909351,20.01924321769491,0 73.76856704170461,20.0203486697625,0 73.76727537297278,20.02128745325169,0 73.76546884156413,20.02218019030082,0 73.76356975103263,20.0228640906658,0 73.76245534164876,20.02315980538674,0 73.76132400693965,20.02313397884138,0 73.75927706679315,20.02295775188155,0 73.75978128912988,20.01941725362575,0 73.75908788007169,20.01940436368229,0 73.75891575993542,20.01709350920935,0 73.75870664913518,20.01413315600949,0 73.75623625825457,20.0145674427049,0 73.75587189958476,20.01209900281692,0 73.75537815270326,20.0086403143304,0 73.75951912110723,20.00707524192574,0 73.763435900925,20.00586197396781,0 73.76552921896155,20.00572256169491,0 73.76726664618818,20.00531757378022,0 73.77045121010595,20.00393855106752,0 73.77021555095044,20.00316897409732,0 73.77304717338821,20.00224316153851,0 73.77523119618756,20.00179437619344,0 73.77699294728961,20.00095715373847,0 73.78246672563429,20.00065270780508,0 73.78398980880444,20.00485700012778,0 73.7849204087009,20.00703640606242,0 73.78936695993687,20.0067522592618,0 73.7898242123976,20.00837095057666,0 73.78990058203614,20.00905843935412,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
