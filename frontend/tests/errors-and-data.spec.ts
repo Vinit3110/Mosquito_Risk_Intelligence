@@ -12,11 +12,11 @@ test('shows actual loader failure and accepts supplied metadata without a fake m
   await expect(page.getByText('Google Maps unavailable', { exact: true })).toBeVisible({ timeout: 25000 });
   await expect(page.getByRole('button', { name: 'Retry map' })).toBeVisible();
   await page.getByRole('button', { name: 'Layers', exact: true }).click();
-  await expect(page.getByText('1 supplied ward', { exact: true })).toBeVisible();
+  await expect(page.getByText('1 ward loaded', { exact: true })).toBeVisible();
   await expect(page.getByText('4 supplied surveys · 0 imagery ready', { exact: true })).toBeVisible();
   await page.getByRole('button', { name: 'Close layers' }).click();
   await page.getByPlaceholder('Search locations, sites or wards…').fill('Synthetic test ward');
-  await page.getByRole('button', { name: 'Synthetic test ward Supplied ward geometry' }).click();
+  await page.getByRole('button', { name: 'Synthetic test ward Ward boundary' }).click();
   await expect(page.getByRole('complementary', { name: 'Selected ward' })).toContainText('synthetic-test');
 });
 test('loading and invalid geospatial responses produce honest feedback', async ({ page }) => {

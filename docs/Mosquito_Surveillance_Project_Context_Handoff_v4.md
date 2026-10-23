@@ -1,4 +1,9 @@
 # Mosquito Surveillance Project — Context Handoff (v4)
+
+> Path update — 22 October 2026: frontend source, public assets, tests, npm manifests, tool configuration and generated frontend folders now live under `frontend/`. Earlier paths and commands below describe their dated checkpoints; run current npm commands from `frontend/`. See [project context](../PROJECT_CONTEXT.md) for current locations.
+
+> Historical handoff through 11 October 2026. Preserve its capture-scope clarifications, hardware proposals and original evidence limits. Current application, backend, ward and annotation progress is maintained in [PROJECT_CONTEXT.md](../PROJECT_CONTEXT.md); later implementation does not retroactively validate the proposed hardware or all survey-accuracy claims below.
+
 **Project:** IN-VBDM — Intelligent Vector-Borne Disease Monitoring  
 **Organization:** Arsha Consultancy (project documents use “Arsha Consultants LLC”)  
 **Region:** Nashik, Maharashtra, India  

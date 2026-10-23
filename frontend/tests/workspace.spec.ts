@@ -43,7 +43,7 @@ test('layers toggle independently and supplied survey imagery is ready', async (
   await hotspots.uncheck(); await boxes.check(); await wards.check();
   await expect(hotspots).not.toBeChecked(); await expect(boxes).toBeChecked(); await expect(wards).toBeChecked();
   await expect(page.getByText('No LunchBox locations supplied')).toBeVisible();
-  await expect(page.getByText('1 supplied ward · manually traced; municipal verification pending')).toBeVisible();
+  await expect(page.getByText('31 wards loaded')).toBeVisible();
   for (const area of ['A', 'B', 'C', 'D']) await page.getByRole('checkbox', { name: `Show Area ${area} survey` }).check();
   await page.getByRole('checkbox', { name: 'Show Area B survey' }).uncheck();
   await expect(page.getByRole('checkbox', { name: 'Show Area A survey' })).toBeChecked();

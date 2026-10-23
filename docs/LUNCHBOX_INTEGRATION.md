@@ -11,7 +11,7 @@ There are no real device deployments or ground observations yet. A LunchBox even
 ## Dashboard access
 
 1. Keep `ssh -N -L 8091:127.0.0.1:8091 kbt-server` running on Windows.
-2. Start the existing frontend with `npm run dev`.
+2. From the repository root, run `cd frontend`, then `npm run dev`.
 3. Open `/lunchbox` using the **KBTCOE · LunchBox** navigation item.
 4. Enter the pilot operator token, retrieved privately as described in [the storage guide](UBUNTU_STORAGE_PILOT.md).
 

@@ -45,7 +45,7 @@ export function SitesPage() {
   const [listOpen, setListOpen] = useState(false);
   const [filtersExpanded, setFiltersExpanded] = useState(false);
   const [layersOpen, setLayersOpen] = useState(false);
-  const [layers, setLayers] = useState<LayerVisibility>({ baseMap: 'roadmap', hotspots: true, lunchboxes: false, wards: false, droneMap: false, droneOpacity: 0.85, surveys: {} });
+  const [layers, setLayers] = useState<LayerVisibility>({ baseMap: 'roadmap', hotspots: true, lunchboxes: false, wards: true, droneMap: false, droneOpacity: 0.85, surveys: {} });
   const [focus, setFocus] = useState<{ position: Position; bounds?: GeographicBounds; token: number }>();
   const [selectedSurveyId, setSelectedSurveyId] = useState<string>();
   const [selectedWardId, setSelectedWardId] = useState<string>();
@@ -209,7 +209,7 @@ export function SitesPage() {
           <span className="section-kicker">Sites &amp; local destinations</span>
           {filtered.slice(0, 6).map(site => <button key={site.id} onClick={() => { selectSite(site.id); setQuery(''); }}><MapPin size={14} /><span><strong>{site.id}</strong><small>{site.label} · {site.ward}</small></span></button>)}
           {searchPlaces.map(place => <button key={place.id} onClick={() => { setFocus(previous => ({ position: place.position, token: (previous?.token ?? 0) + 1 })); setQuery(''); setSearchParams({}); }}><Search size={14} /><span><strong>{place.name}</strong><small>Local destination · approximate centre</small></span></button>)}
-          {searchWards.map(ward => <button key={ward.properties.id} onClick={() => { setLayers(current => ({ ...current, wards: true })); selectWard(ward.properties.id); setQuery(''); }}><Layers size={14} /><span><strong>{ward.properties.name}</strong><small>Supplied ward geometry</small></span></button>)}
+          {searchWards.map(ward => <button key={ward.properties.id} onClick={() => { setLayers(current => ({ ...current, wards: true })); selectWard(ward.properties.id); setQuery(''); }}><Layers size={14} /><span><strong>{ward.properties.name}</strong><small>Ward boundary</small></span></button>)}
           {!filtered.length && !searchPlaces.length && !searchWards.length && <p>No matching sites, local destinations or supplied wards.</p>}
           <small className="search-footnote">Search uses local data; citywide address lookup is not configured.</small>
         </div>}
@@ -283,10 +283,9 @@ export function SitesPage() {
           {selectedSurvey.bounds && <button className="secondary-button" onClick={() => { zoomToSurvey(selectedSurvey.id); setLayersOpen(false); }}>Zoom to survey</button>}
           {selectedSurvey.status === 'ready' && <p>{layers.droneMap && layers.surveys[selectedSurvey.id] ? 'Imagery enabled' : 'Imagery hidden — enable it in Layers'}</p>}
         </aside>}
-        {selectedWard && <aside className="spatial-info-card" aria-label="Selected ward"><button className="icon-button" aria-label="Close ward details" onClick={() => setSelectedWardId(undefined)}><X size={16} /></button><span className="section-kicker">Supplied ward</span><h2>{selectedWard.properties.name}</h2><p>Identifier: {selectedWard.properties.id}</p>
+        {selectedWard && <aside className="spatial-info-card" aria-label="Selected ward"><button className="icon-button" aria-label="Close ward details" onClick={() => setSelectedWardId(undefined)}><X size={16} /></button><span className="section-kicker">Ward boundary</span><h2>{selectedWard.properties.name}</h2><p>Identifier: {selectedWard.properties.id}</p>
           {typeof selectedWard.properties.boundary_status === 'string' && <p>Boundary status: {selectedWard.properties.boundary_status}</p>}
-          {typeof selectedWard.properties.source_file === 'string' && <p>Source: {selectedWard.properties.source_file}</p>}
-          <small>Boundary geometry only. Site association uses wardId when authoritative assignments are supplied.</small></aside>}
+          <small>Ward boundary shown on the map.</small></aside>}
 
         {/* Site-list drawer toggle */}
         <button

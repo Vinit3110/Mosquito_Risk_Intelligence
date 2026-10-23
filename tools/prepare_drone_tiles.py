@@ -12,7 +12,7 @@ from pathlib import Path
 
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--input', type=Path, default=Path('Drone_First_Flight'))
-parser.add_argument('--output', type=Path, default=Path('public/drone'))
+parser.add_argument('--output', type=Path, default=Path('frontend/public/drone'))
 parser.add_argument('--dependency-dir', type=Path)
 parser.add_argument('--min-zoom', type=int, default=14)
 parser.add_argument('--max-zoom', type=int, default=22)

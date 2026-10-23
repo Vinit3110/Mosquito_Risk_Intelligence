@@ -22,7 +22,7 @@ export function useGeospatialData() {
           const parsed = validateWards(data);
           setWards(parsed);
           const traced = parsed.features.some(f => typeof f.properties.boundary_status === 'string' && /user-traced|manually traced/i.test(f.properties.boundary_status));
-          status(parsed.features.length ? `${parsed.features.length} supplied ward${parsed.features.length === 1 ? '' : 's'}${traced ? ' · manually traced; municipal verification pending' : ''}` : 'No ward boundaries supplied');
+          status(parsed.features.length ? `${parsed.features.length} ward${parsed.features.length === 1 ? '' : 's'} loaded${traced ? ' · manually traced; municipal verification pending' : ''}` : 'No ward boundaries supplied');
         }
         else {
           const parsed = validateSurveys(data).map(survey => ({ ...survey, imagery: survey.imagery?.kind === 'xyz' && survey.imagery.urlTemplate.startsWith('/drone/') ? { ...survey.imagery, urlTemplate: `${import.meta.env.BASE_URL}${survey.imagery.urlTemplate.slice(1)}` } : survey.imagery }));

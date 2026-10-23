@@ -5,7 +5,7 @@ from pathlib import Path
 
 project = Path(__file__).resolve().parents[2]
 flight = project / 'Drone_First_Flight' / 'data'
-layers = json.loads((project / 'public/drone/surveys.json').read_text())
+layers = json.loads((project / 'frontend/public/drone/surveys.json').read_text())
 areas = []
 for layer in layers:
     code = layer['id'][-1].upper()

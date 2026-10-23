@@ -2,7 +2,13 @@
 /* global console, document, fetch, innerWidth, process, setTimeout */
 import { spawn, execFileSync } from 'node:child_process';
 import { mkdir } from 'node:fs/promises';
-import { chromium } from '@playwright/test';
+import { createRequire } from 'node:module';
+import { fileURLToPath } from 'node:url';
+
+const frontendDirectory = fileURLToPath(new URL('../frontend/', import.meta.url));
+const frontendRequire = createRequire(new URL('../frontend/package.json', import.meta.url));
+const { chromium } = frontendRequire('@playwright/test');
+const resultsDirectory = new URL('../frontend/test-results/', import.meta.url);
 
 let token = '';
 let browser;
@@ -15,7 +21,7 @@ try {
   tunnel = spawn('ssh', ['-o', 'BatchMode=yes', '-o', 'ExitOnForwardFailure=yes', '-N', '-L', '8091:127.0.0.1:8091', 'kbt-server'], { windowsHide: true, stdio: 'ignore' });
   let tunnelFailed = false;
   tunnel.on('exit', code => { if (code !== null && code !== 0) tunnelFailed = true; });
-  vite = spawn(process.execPath, ['node_modules/vite/bin/vite.js', '--host', '127.0.0.1', '--port', '5190', '--strictPort'], { windowsHide: true, stdio: 'ignore' });
+  vite = spawn(process.execPath, ['node_modules/vite/bin/vite.js', '--host', '127.0.0.1', '--port', '5190', '--strictPort'], { cwd: frontendDirectory, windowsHide: true, stdio: 'ignore' });
   let ready = false;
   for (let attempt = 0; attempt < 30; attempt++) {
     if (tunnelFailed) throw new Error('SSH tunnel could not bind port 8091; close a conflicting tunnel before running this check');
@@ -33,11 +39,11 @@ try {
   await page.getByRole('button', { name: 'Connect to server' }).click();
   await page.getByRole('heading', { name: 'No field observations received' }).waitFor();
   if (await page.getByText('248 original images', { exact: true }).count() !== 1) throw new Error('Real survey inventory missing');
-  await mkdir('test-results', { recursive: true });
-  await page.screenshot({ path: 'test-results/kbtcoe-live-desktop.png', fullPage: true });
+  await mkdir(resultsDirectory, { recursive: true });
+  await page.screenshot({ path: fileURLToPath(new URL('kbtcoe-live-desktop.png', resultsDirectory)), fullPage: true });
   await page.setViewportSize({ width: 390, height: 844 });
   if (!await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)) throw new Error('Mobile layout overflows');
-  await page.screenshot({ path: 'test-results/kbtcoe-live-mobile.png', fullPage: true });
+  await page.screenshot({ path: fileURLToPath(new URL('kbtcoe-live-mobile.png', resultsDirectory)), fullPage: true });
   await page.getByLabel('Show simulated test records').check();
   await page.getByText('3 mosquitoes', { exact: true }).first().waitFor();
   await page.getByRole('button', { name: 'Disconnect' }).click();

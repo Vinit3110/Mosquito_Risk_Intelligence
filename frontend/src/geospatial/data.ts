@@ -2,7 +2,7 @@ import type { GeographicBounds, LunchBoxLocation, Position, SurveyLayer } from '
 import type { WardProperties } from './types';
 
 /** Vite base path keeps the bundled source usable when hosted in a subdirectory. */
-export const DEFAULT_WARDS_URL = `${import.meta.env?.BASE_URL ?? '/'}data/ward_07.geojson`;
+export const DEFAULT_WARDS_URL = `${import.meta.env?.BASE_URL ?? '/'}data/nashik_wards.geojson`;
 export const DEFAULT_SURVEYS_URL = `${import.meta.env?.BASE_URL ?? '/'}drone/surveys.json`;
 export function visibleSurveyBounds(surveys: SurveyLayer[], visibility: Record<string, boolean>): GeographicBounds | undefined {
   const bounds = surveys.filter(s => s.status === 'ready' && visibility[s.id]).flatMap(s => s.bounds ? [s.bounds] : []);
@@ -10,6 +10,8 @@ export function visibleSurveyBounds(surveys: SurveyLayer[], visibility: Record<s
   return { north: Math.max(...bounds.map(b => b.north)), south: Math.min(...bounds.map(b => b.south)), east: Math.max(...bounds.map(b => b.east)), west: Math.min(...bounds.map(b => b.west)) };
 }
 export function wardMatchesQuery(properties: WardProperties, query: string): boolean {
+  const numberedWard = query.trim().match(/^(?:ward\s*(?:no\.?\s*)?)?(\d+)$/i);
+  if (numberedWard) return [properties.id, properties.ward_no, properties.ward_id].some(value => value != null && Number(value) === Number(numberedWard[1]));
   const searchable = `${properties.id} ${properties.name} Ward ${properties.ward_id ?? properties.id}`;
   return searchable.toLowerCase().includes(query.trim().toLowerCase());
 }

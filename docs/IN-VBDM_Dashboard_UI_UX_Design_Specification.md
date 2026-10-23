@@ -1,5 +1,9 @@
 # IN-VBDM — Dashboard UI/UX Design Specification
 
+> Path update — 22 October 2026: frontend source, public assets, tests, npm manifests, tool configuration and generated frontend folders now live under `frontend/`. Earlier paths and commands below describe their dated checkpoints; run current npm commands from `frontend/`. See [project context](../PROJECT_CONTEXT.md) for current locations.
+
+> Design baseline dated 11 October 2026. This document records intended UX and proposed contracts, not a complete inventory of implemented features. The active map now uses Google Maps, a private backend and `/lunchbox` exist, and lifecycle reconciliation remains pending. Read [PROJECT_CONTEXT.md](../PROJECT_CONTEXT.md) and [the current roadmap](SYSTEM_ROADMAP_AND_STATUS.md) before implementing the older stack/API/lifecycle proposals below.
+
 **Product:** Mosquito Surveillance and Response Platform  
 **Interface:** Surveillance Operations Dashboard  
 **Project:** Intelligent Vector-Borne Disease Monitoring System (IN-VBDM)  

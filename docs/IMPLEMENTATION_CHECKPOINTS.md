@@ -1,5 +1,9 @@
 # Migration audit and checkpoints
 
+> Path update — 22 October 2026: frontend source, public assets, tests, npm manifests, tool configuration and generated frontend folders now live under `frontend/`. Earlier paths and commands below describe their dated checkpoints; run current npm commands from `frontend/`. See [project context](../PROJECT_CONTEXT.md) for current locations.
+
+> Historical record: each section describes its own implementation checkpoint. Statements such as "no backend", "no Git repository", missing imagery/wards and the initial active MapLibre renderer describe earlier revisions. For current architecture and data, start with [PROJECT_CONTEXT.md](../PROJECT_CONTEXT.md), [the current roadmap](SYSTEM_ROADMAP_AND_STATUS.md) and [ward boundaries](WARD_BOUNDARIES.md). Preserve dated test results as historical evidence.
+
 ## 1. Existing state
 
 - React 19, React Router 7, Vite 6, TypeScript 5.7; npm lockfile; no Git repository in this directory.
@@ -98,4 +102,44 @@ The existing survey loader now defaults to `/drone/surveys.json`, respecting the
 
 Added `tools/prepare_drone_tiles.py`, generated `public/drone` tiles/metadata/audit, `docs/DRONE_MAP.md`, `tests/drone.spec.ts` and `tests/drone-live.spec.ts`. Updated geospatial types/data/loading, Google map focus/overlay visibility, LayersPanel, SitesPage, scoped CSS, existing browser expectations, both Playwright configurations, `.gitignore`, `.env.example`, README and integration docs. No frontend package or backend was added, and no legacy renderer/dependency was removed.
 
-Nothing further is required for this working overlay. GPS positional accuracy and alignment have not been independently verified against ground control; Ward 7 is still manually traced. Precise measurement and operational decisions require appropriate accuracy validation. Production hosting must include the public tile assets or point metadata to a suitable tile host. See `DRONE_MAP.md` for reprocessing, output provenance and delivery details.
+Nothing further is required for this working overlay. GPS positional accuracy and alignment have not been independently verified against ground control; Ward 7 was still manually traced at this checkpoint (superseded by the 31-ward update below). Precise measurement and operational decisions require appropriate accuracy validation. Production hosting must include the public tile assets or point metadata to a suitable tile host. See `DRONE_MAP.md` for reprocessing, output provenance and delivery details.
+
+## 31-ward boundary integration — 22 October 2026
+
+This update supersedes earlier statements that only the manually traced Ward 7 is available. All 31 wards are now bundled at `public/data/nashik_wards.geojson`, using the owner-approved collection and the [NMC PDF boundary reference](WARD_BOUNDARIES.md). The owner explained that the earlier Ward 7 trace included the river. That KML and its original GeoJSON remain historical inputs; the old public Ward 7 asset was removed.
+
+All 31 coordinate sets are unchanged. Only canonical string IDs/names and numeric feature ordering were added. Individual polygon validity, unique ward numbers 1–31, and production asset equality were checked. The dashboard shows the ward layer by default, uses neutral ward labels, and supports exact numbered searches, selection, bounds fitting, and hide/show with selection retained.
+
+Validation:
+
+- `npm test`: 28 passed, including searching and selecting each of the 31 wards.
+- `npm run build`: passed; the built dataset matches the active collection and excludes the old public Ward 7 asset.
+- Full live suite: 2 passed, covering ward interactions and drone imagery.
+- After retaining numeric aliases for legacy custom collections, the 8 ward tests and the live ward test passed again; the production build passed again.
+- The settled live Ward 7 screenshot was inspected with the basemap, selected outline, and neighbouring wards visible.
+
+No frontend dependency or backend schema change was required. User verification against the referenced PDF is recorded separately from the structural and display checks performed during integration.
+
+## Frontend directory reorganization — 22 October 2026
+
+Moved frontend source, public assets, tests, npm manifests/lockfile, HTML entry, Vite/TypeScript/ESLint/Playwright configuration, local environment configuration and generated frontend folders into `frontend/`. Backend, deployment tools, shared tools, historical GIS inputs and the local drone workspace remain at the repository root. Existing uncommitted ward and documentation work was retained. The outer repository folder name is unchanged.
+
+Updated the historical Ward 7 test reference, survey-manifest metadata reader, tile-output default and live LunchBox tool's frontend dependency/server/output paths. Updated current documentation and contribution instructions; historical records retain their former paths with a dated location note. Processing-audit source references remain repository-root-relative, and browser routes/static asset URLs remain unchanged. No datasets were rebuilt or server state changed.
+
+The first normal browser run encountered a Windows `EPERM` dependency-cache rename collision between its two Vite servers (23 passed, 5 failed). Vite now separates caches by mode, with distinct `test-no-key` and `test-invalid-key` modes for those servers. The complete rerun passed.
+
+Executed validation from `frontend/`:
+
+- `npm run typecheck`: passed.
+- `npm run lint`: passed.
+- `npm run build`: passed; all 1,630 map tiles are present in `frontend/dist`.
+- `npm test`: **28 passed**, including desktop/mobile workspace, ward selection, imagery controls, error states and mocked LunchBox checks.
+
+Executed read-only validation from the repository root:
+
+- `python tmp/verify_frontend_move.py`: all 1,630 tile blobs match Git; npm manifests and survey metadata/audit match after Git newline normalization; moved tracked files have destinations; 116 local Markdown targets resolve; all eight processing-audit source references resolve; changed Python tools parse without execution.
+- `node --check tools/check-lunchbox-live.mjs`: passed; relocated Playwright/Vite dependency resolution was checked separately without opening SSH/API connections.
+- `git check-ignore` confirms the relocated private environment, dependencies, build and test output remain ignored. No credentials were printed.
+- `git diff --check`: passed.
+
+Live Google Maps and Ubuntu/LunchBox integrations were not rerun. Their source paths were updated and normal local regression coverage passed; live availability/rendering and backend persistence were not revalidated by this move. Dependencies and lockfile contents were not upgraded.
